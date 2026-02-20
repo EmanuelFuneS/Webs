@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_sections_features",
+  "info": {
+    "displayName": "Feature"
+  },
+  "options": {},
+  "attributes": {
+    "sectionLabel": {
+      "type": "component",
+      "component": "base-components.label",
+      "repeatable": false
+    },
+    "headLine": {
+      "type": "component",
+      "component": "base-components.head-line",
+      "repeatable": false
+    },
+    "description": {
+      "type": "component",
+      "component": "base-components.text",
+      "repeatable": false
+    },
+    "demoImages": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "keyPoints": {
+      "type": "component",
+      "component": "base-components.key-point",
+      "repeatable": true
+    },
+    "useCases": {
+      "type": "component",
+      "component": "base-components.use-case",
+      "repeatable": true
+    },
+    "testimonials": {
+      "type": "component",
+      "component": "base-components.testimonial",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

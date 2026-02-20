@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_base_components_texts",
+  "info": {
+    "displayName": "Text",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "as": {
+      "type": "enumeration",
+      "enum": [
+        "paragraph"
+      ]
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "paragraph"
+      ]
+    },
+    "message": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

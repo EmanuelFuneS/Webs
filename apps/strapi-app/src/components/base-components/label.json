@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_base_components_labels",
+  "info": {
+    "displayName": "Label"
+  },
+  "options": {},
+  "attributes": {
+    "as": {
+      "type": "enumeration",
+      "enum": [
+        "span",
+        "label",
+        "legend"
+      ]
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "nav-link",
+        "sub-link"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_base_components_head_lines",
+  "info": {
+    "displayName": "HeadLine"
+  },
+  "options": {},
+  "attributes": {
+    "as": {
+      "type": "enumeration",
+      "enum": [
+        "heading_one",
+        "heading_two",
+        "heading_three",
+        "heading_four",
+        "heading_five",
+        "heading_six"
+      ]
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "headline",
+        "subline"
+      ]
+    }
+  },
+  "config": {}
+}
