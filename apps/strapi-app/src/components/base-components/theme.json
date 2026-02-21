@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_base_components_themes",
+  "info": {
+    "displayName": "Theme",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "themeBG": {
+      "type": "enumeration",
+      "enum": [
+        "dark",
+        "light"
+      ]
+    },
+    "blurColor": {
+      "type": "enumeration",
+      "enum": [
+        "type_one",
+        "type_two",
+        "type_three"
+      ]
+    }
+  },
+  "config": {}
+}

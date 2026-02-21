@@ -4,6 +4,27 @@
     "displayName": "Testimonial"
   },
   "options": {},
-  "attributes": {},
+  "attributes": {
+    "company": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "authorPhoto": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "AuthorName": {
+      "type": "string"
+    },
+    "authorRol": {
+      "type": "string"
+    }
+  },
   "config": {}
 }

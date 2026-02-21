@@ -4,6 +4,12 @@
     "displayName": "Footer"
   },
   "options": {},
-  "attributes": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "component": "base-components.link",
+      "repeatable": true
+    }
+  },
   "config": {}
 }

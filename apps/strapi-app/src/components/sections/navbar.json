@@ -4,6 +4,25 @@
     "displayName": "Navbar"
   },
   "options": {},
-  "attributes": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "files",
+        "images"
+      ]
+    },
+    "links": {
+      "type": "component",
+      "component": "base-components.link",
+      "repeatable": true
+    },
+    "ctas": {
+      "type": "component",
+      "component": "base-components.button",
+      "repeatable": true
+    }
+  },
   "config": {}
 }

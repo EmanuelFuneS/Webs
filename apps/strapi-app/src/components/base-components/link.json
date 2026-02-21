@@ -1,11 +1,12 @@
 {
-  "collectionName": "components_base_components_key_points",
+  "collectionName": "components_base_components_links",
   "info": {
-    "displayName": "KeyPoint"
+    "displayName": "Link",
+    "icon": "link"
   },
   "options": {},
   "attributes": {
-    "icon": {
+    "href": {
       "type": "string"
     },
     "text": {

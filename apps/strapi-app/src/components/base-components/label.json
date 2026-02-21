@@ -19,6 +19,9 @@
         "nav-link",
         "sub-link"
       ]
+    },
+    "text": {
+      "type": "string"
     }
   },
   "config": {}

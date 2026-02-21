@@ -4,6 +4,36 @@
     "displayName": "Hero"
   },
   "options": {},
-  "attributes": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "component": "base-components.head-line",
+      "repeatable": false
+    },
+    "description": {
+      "type": "component",
+      "component": "base-components.text",
+      "repeatable": false
+    },
+    "cta": {
+      "type": "component",
+      "component": "base-components.button",
+      "repeatable": true
+    },
+    "demoImages": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "sponsors": {
+      "type": "component",
+      "component": "base-components.label",
+      "repeatable": true
+    }
+  },
   "config": {}
 }

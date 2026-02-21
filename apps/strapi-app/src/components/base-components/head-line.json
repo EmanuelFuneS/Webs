@@ -22,6 +22,9 @@
         "headline",
         "subline"
       ]
+    },
+    "text": {
+      "type": "text"
     }
   },
   "config": {}

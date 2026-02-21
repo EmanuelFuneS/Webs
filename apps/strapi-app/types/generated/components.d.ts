@@ -6,7 +6,11 @@ export interface BaseComponentsButton extends Struct.ComponentSchema {
     displayName: 'Button';
     icon: 'code';
   };
-  attributes: {};
+  attributes: {
+    as: Schema.Attribute.Enumeration<['link', 'cta', 'button']>;
+    text: Schema.Attribute.String;
+    variant: Schema.Attribute.Enumeration<['cta', 'form']>;
+  };
 }
 
 export interface BaseComponentsContainer extends Struct.ComponentSchema {
@@ -34,6 +38,7 @@ export interface BaseComponentsHeadLine extends Struct.ComponentSchema {
         'heading_six',
       ]
     >;
+    text: Schema.Attribute.Text;
     variant: Schema.Attribute.Enumeration<['headline', 'subline']>;
   };
 }
@@ -43,7 +48,10 @@ export interface BaseComponentsKeyPoint extends Struct.ComponentSchema {
   info: {
     displayName: 'KeyPoint';
   };
-  attributes: {};
+  attributes: {
+    icon: Schema.Attribute.String;
+    text: Schema.Attribute.String;
+  };
 }
 
 export interface BaseComponentsLabel extends Struct.ComponentSchema {
@@ -53,7 +61,20 @@ export interface BaseComponentsLabel extends Struct.ComponentSchema {
   };
   attributes: {
     as: Schema.Attribute.Enumeration<['span', 'label', 'legend']>;
+    text: Schema.Attribute.String;
     variant: Schema.Attribute.Enumeration<['nav-link', 'sub-link']>;
+  };
+}
+
+export interface BaseComponentsLink extends Struct.ComponentSchema {
+  collectionName: 'components_base_components_links';
+  info: {
+    displayName: 'Link';
+    icon: 'link';
+  };
+  attributes: {
+    href: Schema.Attribute.String;
+    text: Schema.Attribute.String;
   };
 }
 
@@ -79,7 +100,13 @@ export interface BaseComponentsTestimonial extends Struct.ComponentSchema {
   info: {
     displayName: 'Testimonial';
   };
-  attributes: {};
+  attributes: {
+    AuthorName: Schema.Attribute.String;
+    authorPhoto: Schema.Attribute.Media<'images' | 'files', true>;
+    authorRol: Schema.Attribute.String;
+    company: Schema.Attribute.String;
+    message: Schema.Attribute.String;
+  };
 }
 
 export interface BaseComponentsText extends Struct.ComponentSchema {
@@ -90,8 +117,22 @@ export interface BaseComponentsText extends Struct.ComponentSchema {
   };
   attributes: {
     as: Schema.Attribute.Enumeration<['paragraph']>;
-    message: Schema.Attribute.Text;
+    text: Schema.Attribute.Text;
     variant: Schema.Attribute.Enumeration<['paragraph']>;
+  };
+}
+
+export interface BaseComponentsTheme extends Struct.ComponentSchema {
+  collectionName: 'components_base_components_themes';
+  info: {
+    displayName: 'Theme';
+    icon: 'brush';
+  };
+  attributes: {
+    blurColor: Schema.Attribute.Enumeration<
+      ['type_one', 'type_two', 'type_three']
+    >;
+    themeBG: Schema.Attribute.Enumeration<['dark', 'light']>;
   };
 }
 
@@ -100,7 +141,11 @@ export interface BaseComponentsUseCase extends Struct.ComponentSchema {
   info: {
     displayName: 'UseCase';
   };
-  attributes: {};
+  attributes: {
+    headLine: Schema.Attribute.String;
+    imageCase: Schema.Attribute.Media<'files' | 'images'>;
+    subLine: Schema.Attribute.String;
+  };
 }
 
 export interface SectionsFeature extends Struct.ComponentSchema {
@@ -118,6 +163,7 @@ export interface SectionsFeature extends Struct.ComponentSchema {
       'base-components.testimonial',
       true
     >;
+    theme: Schema.Attribute.Component<'base-components.theme', false>;
     useCases: Schema.Attribute.Component<'base-components.use-case', true>;
   };
 }
@@ -127,7 +173,9 @@ export interface SectionsFooter extends Struct.ComponentSchema {
   info: {
     displayName: 'Footer';
   };
-  attributes: {};
+  attributes: {
+    links: Schema.Attribute.Component<'base-components.link', true>;
+  };
 }
 
 export interface SectionsHero extends Struct.ComponentSchema {
@@ -135,7 +183,13 @@ export interface SectionsHero extends Struct.ComponentSchema {
   info: {
     displayName: 'Hero';
   };
-  attributes: {};
+  attributes: {
+    cta: Schema.Attribute.Component<'base-components.button', true>;
+    demoImages: Schema.Attribute.Media<'images' | 'files' | 'videos', true>;
+    description: Schema.Attribute.Component<'base-components.text', false>;
+    sponsors: Schema.Attribute.Component<'base-components.label', true>;
+    title: Schema.Attribute.Component<'base-components.head-line', false>;
+  };
 }
 
 export interface SectionsNavbar extends Struct.ComponentSchema {
@@ -143,7 +197,11 @@ export interface SectionsNavbar extends Struct.ComponentSchema {
   info: {
     displayName: 'Navbar';
   };
-  attributes: {};
+  attributes: {
+    ctas: Schema.Attribute.Component<'base-components.button', true>;
+    links: Schema.Attribute.Component<'base-components.link', true>;
+    logo: Schema.Attribute.Media<'files' | 'images'>;
+  };
 }
 
 declare module '@strapi/strapi' {
@@ -154,9 +212,11 @@ declare module '@strapi/strapi' {
       'base-components.head-line': BaseComponentsHeadLine;
       'base-components.key-point': BaseComponentsKeyPoint;
       'base-components.label': BaseComponentsLabel;
+      'base-components.link': BaseComponentsLink;
       'base-components.seo': BaseComponentsSeo;
       'base-components.testimonial': BaseComponentsTestimonial;
       'base-components.text': BaseComponentsText;
+      'base-components.theme': BaseComponentsTheme;
       'base-components.use-case': BaseComponentsUseCase;
       'sections.feature': SectionsFeature;
       'sections.footer': SectionsFooter;

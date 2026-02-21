@@ -5,6 +5,25 @@
     "icon": "code"
   },
   "options": {},
-  "attributes": {},
+  "attributes": {
+    "as": {
+      "type": "enumeration",
+      "enum": [
+        "link",
+        "cta",
+        "button"
+      ]
+    },
+    "text": {
+      "type": "string"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "cta",
+        "form"
+      ]
+    }
+  },
   "config": {}
 }

@@ -4,6 +4,21 @@
     "displayName": "UseCase"
   },
   "options": {},
-  "attributes": {},
+  "attributes": {
+    "headLine": {
+      "type": "string"
+    },
+    "subLine": {
+      "type": "string"
+    },
+    "imageCase": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "files",
+        "images"
+      ]
+    }
+  },
   "config": {}
 }

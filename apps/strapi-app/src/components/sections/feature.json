@@ -43,6 +43,11 @@
       "type": "component",
       "component": "base-components.testimonial",
       "repeatable": true
+    },
+    "theme": {
+      "type": "component",
+      "component": "base-components.theme",
+      "repeatable": false
     }
   },
   "config": {}
