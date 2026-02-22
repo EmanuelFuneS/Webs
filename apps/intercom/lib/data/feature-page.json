@@ -1,0 +1,327 @@
+{
+  "data": {
+    "id": 2,
+    "documentId": "jnhhkkn8r2kny5jb963f1wss",
+    "createdAt": "2026-02-21T14:57:40.149Z",
+    "updatedAt": "2026-02-22T00:42:34.517Z",
+    "publishedAt": "2026-02-22T00:42:34.562Z",
+    "locale": "en",
+    "seo": {
+      "id": 2,
+      "metaTitle": null,
+      "metaDescription": null,
+      "metaKeywords": null,
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogType": null,
+      "canonicalUrl": null
+    },
+    "sections": [
+      {
+        "__component": "sections.navbar",
+        "id": 2,
+        "logo": {
+          "id": 7,
+          "documentId": "j38r5hso4i7368csibz67y57",
+          "name": "IntercomLogo.png",
+          "alternativeText": "ItercomLogo",
+          "caption": null,
+          "width": 157,
+          "height": 36,
+          "formats": null,
+          "hash": "Intercom_Logo_1daf76b8ed",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 0.82,
+          "url": "/uploads/Intercom_Logo_1daf76b8ed.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2026-02-21T14:55:23.485Z",
+          "updatedAt": "2026-02-21T15:01:20.817Z",
+          "publishedAt": "2026-02-21T14:55:23.486Z"
+        },
+        "links": [
+          {
+            "id": 6,
+            "href": null,
+            "text": "Product"
+          },
+          {
+            "id": 7,
+            "href": null,
+            "text": "Solutions"
+          },
+          {
+            "id": 8,
+            "href": null,
+            "text": "Customer"
+          },
+          {
+            "id": 9,
+            "href": null,
+            "text": "Resources"
+          },
+          {
+            "id": 10,
+            "href": null,
+            "text": "Pricing"
+          }
+        ],
+        "ctas": [
+          {
+            "id": 5,
+            "as": "button",
+            "text": "Start Free Trial",
+            "variant": "cta"
+          },
+          {
+            "id": 6,
+            "as": "button",
+            "text": "View Demo",
+            "variant": "cta"
+          }
+        ]
+      },
+      {
+        "__component": "sections.hero",
+        "id": 2,
+        "title": {
+          "id": 3,
+          "as": "heading_one",
+          "variant": "headline",
+          "text": "The only AI customer service Solution you need"
+        },
+        "description": {
+          "id": 3,
+          "as": "paragraph",
+          "variant": "paragraph",
+          "text": "Resolve issues faster and boost customer satisfaction -- all while reducing team workload -- with the only customer service solutions you'll ever need."
+        },
+        "cta": [
+          {
+            "id": 7,
+            "as": "button",
+            "text": "Start free trial",
+            "variant": "cta"
+          },
+          {
+            "id": 8,
+            "as": "button",
+            "text": "View Demo",
+            "variant": "cta"
+          }
+        ],
+        "demoImages": [
+          {
+            "id": 8,
+            "documentId": "goxgux79ac46ykc1q7h0083q",
+            "name": "IntercomHero.png",
+            "alternativeText": "Itercom Preview",
+            "caption": null,
+            "width": 1275,
+            "height": 669,
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_IntercomHero.png",
+                "hash": "thumbnail_Intercom_Hero_44bfd508b5",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 245,
+                "height": 129,
+                "size": 32.58,
+                "sizeInBytes": 32577,
+                "url": "/uploads/thumbnail_Intercom_Hero_44bfd508b5.png"
+              },
+              "small": {
+                "name": "small_IntercomHero.png",
+                "hash": "small_Intercom_Hero_44bfd508b5",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 500,
+                "height": 262,
+                "size": 99.56,
+                "sizeInBytes": 99562,
+                "url": "/uploads/small_Intercom_Hero_44bfd508b5.png"
+              },
+              "medium": {
+                "name": "medium_IntercomHero.png",
+                "hash": "medium_Intercom_Hero_44bfd508b5",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 750,
+                "height": 394,
+                "size": 197.9,
+                "sizeInBytes": 197897,
+                "url": "/uploads/medium_Intercom_Hero_44bfd508b5.png"
+              },
+              "large": {
+                "name": "large_IntercomHero.png",
+                "hash": "large_Intercom_Hero_44bfd508b5",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 1000,
+                "height": 525,
+                "size": 327.05,
+                "sizeInBytes": 327048,
+                "url": "/uploads/large_Intercom_Hero_44bfd508b5.png"
+              }
+            },
+            "hash": "Intercom_Hero_44bfd508b5",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 111.2,
+            "url": "/uploads/Intercom_Hero_44bfd508b5.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2026-02-21T14:55:23.942Z",
+            "updatedAt": "2026-02-21T15:06:42.018Z",
+            "publishedAt": "2026-02-21T14:55:23.943Z"
+          }
+        ],
+        "sponsors": [
+          {
+            "id": 6,
+            "as": "label",
+            "variant": "sub-link",
+            "text": "ATASSIAN"
+          },
+          {
+            "id": 7,
+            "as": "label",
+            "variant": "sub-link",
+            "text": "ClickTravel"
+          },
+          {
+            "id": 8,
+            "as": "label",
+            "variant": "sub-link",
+            "text": "Notion"
+          }
+        ]
+      },
+      {
+        "__component": "sections.feature",
+        "id": 2,
+        "sectionLabel": {
+          "id": 5,
+          "as": "span",
+          "variant": "sub-link",
+          "text": "Automation"
+        },
+        "headLine": {
+          "id": 4,
+          "as": "heading_one",
+          "variant": "headline",
+          "text": "Automate conversations with the power of AI"
+        },
+        "description": {
+          "id": 4,
+          "as": "paragraph",
+          "variant": "paragraph",
+          "text": "Reduce support volumes and incease customer satisfaction in minutes with intercom's AI-powered chatbots and automation tools"
+        },
+        "demoImages": [
+          {
+            "id": 1,
+            "documentId": "nvsswi688qxebvz2oyalkq4h",
+            "name": "automation-0.png",
+            "alternativeText": "Chatbot",
+            "caption": null,
+            "width": 399,
+            "height": 442,
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_automation-0.png",
+                "hash": "thumbnail_automation_0_f65e1ab7d2",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 141,
+                "height": 156,
+                "size": 13.39,
+                "sizeInBytes": 13385,
+                "url": "/uploads/thumbnail_automation_0_f65e1ab7d2.png"
+              }
+            },
+            "hash": "automation_0_f65e1ab7d2",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 15.32,
+            "url": "/uploads/automation_0_f65e1ab7d2.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2026-02-21T14:55:22.482Z",
+            "updatedAt": "2026-02-21T17:13:58.831Z",
+            "publishedAt": "2026-02-21T14:55:22.483Z"
+          }
+        ],
+        "keyPoints": [
+          {
+            "id": 4,
+            "icon": "check",
+            "text": "Unlock the best AI-powered customer service tools in minutes"
+          },
+          {
+            "id": 5,
+            "icon": "check",
+            "text": "Lower your costs with more efficient support teams"
+          },
+          {
+            "id": 6,
+            "icon": "check",
+            "text": "Scale Support without sacrificing customer experience"
+          }
+        ],
+        "useCases": [
+          {
+            "id": 6,
+            "headLine": "Fin",
+            "subLine": "Our AI-powered bot automatically and accuarately answers support quersions with zero training required"
+          },
+          {
+            "id": 7,
+            "headLine": "Workflows",
+            "subLine": "Easily build powerfull no-code automations with bots, triggers, conditions, and rules -- all in one place"
+          },
+          {
+            "id": 8,
+            "headLine": "Ai-powered Inbox",
+            "subLine": "Instantly generate replies, recap, conversations for other agents, and create new help articles."
+          },
+          {
+            "id": 9,
+            "headLine": "Article suggestions",
+            "subLine": "Immediately recommend helpful content with machine learning -- directly in your product"
+          },
+          {
+            "id": 10,
+            "headLine": "Conversation topics",
+            "subLine": "Better understand your customers with AI-powered analysis of support conversations."
+          }
+        ],
+        "testimonials": [
+          {
+            "id": 2,
+            "company": "Zilch",
+            "message": "\"Our bot deflection rate with our previous customer service solutions was 5-10%. With Intercom, we archieved 65% bot deflection within just one week of going live.\"",
+            "AuthorName": "Stuart Sykes",
+            "authorRol": "VP of Service Operations, Zilch"
+          }
+        ],
+        "theme": {
+          "id": 2,
+          "themeBG": "light",
+          "blurColor": "type_one"
+        }
+      }
+    ]
+  },
+  "meta": {}
+}
