@@ -9,13 +9,24 @@
     "as": {
       "type": "enumeration",
       "enum": [
-        "paragraph"
+        "heading_one",
+        "heading_two",
+        "heading_three",
+        "heading_four",
+        "heading_five",
+        "heading_six",
+        "paragraph",
+        "span",
+        "label",
+        "legend"
       ]
     },
     "variant": {
       "type": "enumeration",
       "enum": [
-        "paragraph"
+        "primary",
+        "secondary",
+        "tertiary"
       ]
     },
     "text": {

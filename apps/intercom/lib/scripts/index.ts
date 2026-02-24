@@ -41,4 +41,22 @@ async function fetchAndSave() {
   }
 }
 
+export async function downloadImages(data: any) {
+  for (const section of data.sections) {
+    for (const img of section.demoImages) {
+      const url = `https://${STRAPI_URL}${img.url}`;
+      const filename = path.basename(img.url);
+      const localPath = `public/strapi-images/${filename}`;
+
+      const response = await fetch(url);
+      const buffer = await response.arrayBuffer();
+
+      fs.mkdirSync("public/strapi-images", { recursive: true });
+      fs.writeFileSync(localPath, Buffer.from(buffer));
+
+      img.url = `/strapi-images/${filename}`;
+    }
+  }
+}
+
 fetchAndSave();

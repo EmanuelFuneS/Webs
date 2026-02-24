@@ -103,8 +103,6 @@ export default factories.createCoreController(
 
     const populate = buildDeepPopulate(schema);
 
-    console.log("Generated populate", JSON.stringify(populate, null, 2));
-
     return {
       async find(ctx) {
         ctx.query = {

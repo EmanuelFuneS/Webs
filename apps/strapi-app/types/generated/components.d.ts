@@ -36,10 +36,14 @@ export interface BaseComponentsHeadLine extends Struct.ComponentSchema {
         'heading_four',
         'heading_five',
         'heading_six',
+        'paragraph',
+        'span',
+        'label',
+        'legend',
       ]
     >;
     text: Schema.Attribute.Text;
-    variant: Schema.Attribute.Enumeration<['headline', 'subline']>;
+    variant: Schema.Attribute.Enumeration<['primary', 'secondary', 'tertiary']>;
   };
 }
 
@@ -60,9 +64,22 @@ export interface BaseComponentsLabel extends Struct.ComponentSchema {
     displayName: 'Label';
   };
   attributes: {
-    as: Schema.Attribute.Enumeration<['span', 'label', 'legend']>;
+    as: Schema.Attribute.Enumeration<
+      [
+        'heading_one',
+        'heading_two',
+        'heading_three',
+        'heading_four',
+        'heading_five',
+        'heading_six',
+        'paragraph',
+        'span',
+        'label',
+        'legend',
+      ]
+    >;
     text: Schema.Attribute.String;
-    variant: Schema.Attribute.Enumeration<['nav-link', 'sub-link']>;
+    variant: Schema.Attribute.Enumeration<['primary', 'secondary', 'tertiary']>;
   };
 }
 
@@ -116,9 +133,22 @@ export interface BaseComponentsText extends Struct.ComponentSchema {
     icon: 'code';
   };
   attributes: {
-    as: Schema.Attribute.Enumeration<['paragraph']>;
+    as: Schema.Attribute.Enumeration<
+      [
+        'heading_one',
+        'heading_two',
+        'heading_three',
+        'heading_four',
+        'heading_five',
+        'heading_six',
+        'paragraph',
+        'span',
+        'label',
+        'legend',
+      ]
+    >;
     text: Schema.Attribute.Text;
-    variant: Schema.Attribute.Enumeration<['paragraph']>;
+    variant: Schema.Attribute.Enumeration<['primary', 'secondary', 'tertiary']>;
   };
 }
 

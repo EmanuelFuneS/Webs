@@ -1,6 +1,8 @@
+import "@workspace/ui/styles/globals.css";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import "./globals.css";
+import NavBar from "../components/Layout/navbar";
+import data from "../lib/data/feature-page.json";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -21,10 +23,16 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const navData = data.data.sections.find(
+    (section) => section.__component === "sections.navbar",
+  );
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} max-w-7xl mx-auto h-full`}
+      >
+        <NavBar data={navData} />
+        <main className="">{children}</main>
       </body>
     </html>
   );

@@ -13,14 +13,19 @@
         "heading_three",
         "heading_four",
         "heading_five",
-        "heading_six"
+        "heading_six",
+        "paragraph",
+        "span",
+        "label",
+        "legend"
       ]
     },
     "variant": {
       "type": "enumeration",
       "enum": [
-        "headline",
-        "subline"
+        "primary",
+        "secondary",
+        "tertiary"
       ]
     },
     "text": {

@@ -8,6 +8,13 @@
     "as": {
       "type": "enumeration",
       "enum": [
+        "heading_one",
+        "heading_two",
+        "heading_three",
+        "heading_four",
+        "heading_five",
+        "heading_six",
+        "paragraph",
         "span",
         "label",
         "legend"
@@ -16,8 +23,9 @@
     "variant": {
       "type": "enumeration",
       "enum": [
-        "nav-link",
-        "sub-link"
+        "primary",
+        "secondary",
+        "tertiary"
       ]
     },
     "text": {
