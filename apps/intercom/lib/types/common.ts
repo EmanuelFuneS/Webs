@@ -78,7 +78,7 @@ export interface UseCase {
   id: number;
   headLine: string;
   subLine: string;
-  ImageCase: SingleImage;
+  imageCase: SingleImage;
 }
 export interface Testimonial {
   id: number;

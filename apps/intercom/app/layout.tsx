@@ -32,7 +32,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} max-w-7xl mx-auto h-full`}
       >
         <NavBar data={navData} />
-        <main className="">{children}</main>
+        <main className="max-w-7xl mx-auto px-2 py-4">{children}</main>
       </body>
     </html>
   );

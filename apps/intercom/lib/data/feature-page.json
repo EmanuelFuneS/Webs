@@ -1,25 +1,26 @@
 {
   "data": {
-    "id": 2,
+    "id": 3,
     "documentId": "jnhhkkn8r2kny5jb963f1wss",
     "createdAt": "2026-02-21T14:57:40.149Z",
-    "updatedAt": "2026-02-22T00:42:34.517Z",
-    "publishedAt": "2026-02-22T00:42:34.562Z",
+    "updatedAt": "2026-02-24T02:02:25.937Z",
+    "publishedAt": "2026-02-24T02:02:26.026Z",
     "locale": "en",
     "seo": {
-      "id": 2,
+      "id": 3,
       "metaTitle": null,
       "metaDescription": null,
       "metaKeywords": null,
       "ogTitle": null,
       "ogDescription": null,
       "ogType": null,
-      "canonicalUrl": null
+      "canonicalUrl": null,
+      "ogImage": null
     },
     "sections": [
       {
         "__component": "sections.navbar",
-        "id": 2,
+        "id": 3,
         "logo": {
           "id": 7,
           "documentId": "j38r5hso4i7368csibz67y57",
@@ -43,40 +44,40 @@
         },
         "links": [
           {
-            "id": 6,
+            "id": 11,
             "href": null,
             "text": "Product"
           },
           {
-            "id": 7,
+            "id": 12,
             "href": null,
             "text": "Solutions"
           },
           {
-            "id": 8,
+            "id": 13,
             "href": null,
             "text": "Customer"
           },
           {
-            "id": 9,
+            "id": 14,
             "href": null,
             "text": "Resources"
           },
           {
-            "id": 10,
+            "id": 15,
             "href": null,
             "text": "Pricing"
           }
         ],
         "ctas": [
           {
-            "id": 5,
+            "id": 9,
             "as": "button",
             "text": "Start Free Trial",
             "variant": "cta"
           },
           {
-            "id": 6,
+            "id": 10,
             "as": "button",
             "text": "View Demo",
             "variant": "cta"
@@ -85,28 +86,28 @@
       },
       {
         "__component": "sections.hero",
-        "id": 2,
+        "id": 3,
         "title": {
-          "id": 3,
+          "id": 5,
           "as": "heading_one",
-          "variant": "headline",
+          "variant": "primary",
           "text": "The only AI customer service Solution you need"
         },
         "description": {
-          "id": 3,
+          "id": 5,
           "as": "paragraph",
-          "variant": "paragraph",
+          "variant": "secondary",
           "text": "Resolve issues faster and boost customer satisfaction -- all while reducing team workload -- with the only customer service solutions you'll ever need."
         },
         "cta": [
           {
-            "id": 7,
+            "id": 11,
             "as": "button",
             "text": "Start free trial",
             "variant": "cta"
           },
           {
-            "id": 8,
+            "id": 12,
             "as": "button",
             "text": "View Demo",
             "variant": "cta"
@@ -186,44 +187,44 @@
         ],
         "sponsors": [
           {
-            "id": 6,
+            "id": 10,
             "as": "label",
-            "variant": "sub-link",
+            "variant": "tertiary",
             "text": "ATASSIAN"
           },
           {
-            "id": 7,
+            "id": 11,
             "as": "label",
-            "variant": "sub-link",
+            "variant": "tertiary",
             "text": "ClickTravel"
           },
           {
-            "id": 8,
+            "id": 12,
             "as": "label",
-            "variant": "sub-link",
+            "variant": "tertiary",
             "text": "Notion"
           }
         ]
       },
       {
         "__component": "sections.feature",
-        "id": 2,
+        "id": 3,
         "sectionLabel": {
-          "id": 5,
+          "id": 9,
           "as": "span",
-          "variant": "sub-link",
+          "variant": "tertiary",
           "text": "Automation"
         },
         "headLine": {
-          "id": 4,
+          "id": 6,
           "as": "heading_one",
-          "variant": "headline",
+          "variant": "primary",
           "text": "Automate conversations with the power of AI"
         },
         "description": {
-          "id": 4,
+          "id": 6,
           "as": "paragraph",
-          "variant": "paragraph",
+          "variant": "secondary",
           "text": "Reduce support volumes and incease customer satisfaction in minutes with intercom's AI-powered chatbots and automation tools"
         },
         "demoImages": [
@@ -264,59 +265,187 @@
         ],
         "keyPoints": [
           {
-            "id": 4,
+            "id": 7,
             "icon": "check",
             "text": "Unlock the best AI-powered customer service tools in minutes"
           },
           {
-            "id": 5,
+            "id": 8,
             "icon": "check",
             "text": "Lower your costs with more efficient support teams"
           },
           {
-            "id": 6,
+            "id": 9,
             "icon": "check",
             "text": "Scale Support without sacrificing customer experience"
           }
         ],
         "useCases": [
           {
-            "id": 6,
+            "id": 11,
             "headLine": "Fin",
-            "subLine": "Our AI-powered bot automatically and accuarately answers support quersions with zero training required"
+            "subLine": "Our AI-powered bot automatically and accuarately answers support quersions with zero training required",
+            "imageCase": {
+              "id": 5,
+              "documentId": "k53i8vq5i03s245ilcx0046u",
+              "name": "Automation-1.svg",
+              "alternativeText": "Fin-Bot",
+              "caption": null,
+              "width": 603,
+              "height": 301,
+              "formats": null,
+              "hash": "Automation_1_8170b0b987",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 193.83,
+              "url": "/uploads/Automation_1_8170b0b987.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-21T14:55:22.802Z",
+              "updatedAt": "2026-02-21T17:22:23.973Z",
+              "publishedAt": "2026-02-21T14:55:22.802Z"
+            }
           },
           {
-            "id": 7,
+            "id": 12,
             "headLine": "Workflows",
-            "subLine": "Easily build powerfull no-code automations with bots, triggers, conditions, and rules -- all in one place"
+            "subLine": "Easily build powerfull no-code automations with bots, triggers, conditions, and rules -- all in one place",
+            "imageCase": {
+              "id": 6,
+              "documentId": "sx7xqxgymv0gxepb60yj26d0",
+              "name": "Automation-2.svg",
+              "alternativeText": "Workflows",
+              "caption": null,
+              "width": 604,
+              "height": 304,
+              "formats": null,
+              "hash": "Automation_2_7cd2d39eb7",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 187.17,
+              "url": "/uploads/Automation_2_7cd2d39eb7.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-21T14:55:22.828Z",
+              "updatedAt": "2026-02-21T17:23:34.700Z",
+              "publishedAt": "2026-02-21T14:55:22.828Z"
+            }
           },
           {
-            "id": 8,
+            "id": 13,
             "headLine": "Ai-powered Inbox",
-            "subLine": "Instantly generate replies, recap, conversations for other agents, and create new help articles."
+            "subLine": "Instantly generate replies, recap, conversations for other agents, and create new help articles.",
+            "imageCase": {
+              "id": 3,
+              "documentId": "i50ljo619lt33iuuqt4sqtgk",
+              "name": "Automation-3.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 391,
+              "height": 260,
+              "formats": null,
+              "hash": "Automation_3_79aab24178",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 94.83,
+              "url": "/uploads/Automation_3_79aab24178.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-21T14:55:22.720Z",
+              "updatedAt": "2026-02-21T14:55:22.720Z",
+              "publishedAt": "2026-02-21T14:55:22.721Z"
+            }
           },
           {
-            "id": 9,
+            "id": 14,
             "headLine": "Article suggestions",
-            "subLine": "Immediately recommend helpful content with machine learning -- directly in your product"
+            "subLine": "Immediately recommend helpful content with machine learning -- directly in your product",
+            "imageCase": {
+              "id": 4,
+              "documentId": "keay7am1bzjb81a8i9ganfpg",
+              "name": "Automation-4.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 391,
+              "height": 260,
+              "formats": null,
+              "hash": "Automation_4_7a0e85d6ea",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 179.14,
+              "url": "/uploads/Automation_4_7a0e85d6ea.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-21T14:55:22.752Z",
+              "updatedAt": "2026-02-21T14:55:22.752Z",
+              "publishedAt": "2026-02-21T14:55:22.752Z"
+            }
           },
           {
-            "id": 10,
+            "id": 15,
             "headLine": "Conversation topics",
-            "subLine": "Better understand your customers with AI-powered analysis of support conversations."
+            "subLine": "Better understand your customers with AI-powered analysis of support conversations.",
+            "imageCase": {
+              "id": 2,
+              "documentId": "ygvrno7pbxvxq4ii9yz6ln4r",
+              "name": "Automation-5.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 391,
+              "height": 260,
+              "formats": null,
+              "hash": "Automation_5_56a43ceacc",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 270.92,
+              "url": "/uploads/Automation_5_56a43ceacc.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-21T14:55:22.519Z",
+              "updatedAt": "2026-02-21T14:55:22.519Z",
+              "publishedAt": "2026-02-21T14:55:22.520Z"
+            }
           }
         ],
         "testimonials": [
           {
-            "id": 2,
+            "id": 3,
             "company": "Zilch",
             "message": "\"Our bot deflection rate with our previous customer service solutions was 5-10%. With Intercom, we archieved 65% bot deflection within just one week of going live.\"",
             "AuthorName": "Stuart Sykes",
-            "authorRol": "VP of Service Operations, Zilch"
+            "authorRol": "VP of Service Operations, Zilch",
+            "authorPhoto": [
+              {
+                "id": 9,
+                "documentId": "i1xbw18d3ww3xrj814bpl3fe",
+                "name": "Avatar_Stuart.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 89,
+                "height": 89,
+                "formats": null,
+                "hash": "Avatar_Stuart_8c0654d5cf",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 6.24,
+                "url": "/uploads/Avatar_Stuart_8c0654d5cf.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2026-02-21T17:28:16.833Z",
+                "updatedAt": "2026-02-21T17:28:16.833Z",
+                "publishedAt": "2026-02-21T17:28:16.833Z"
+              }
+            ]
           }
         ],
         "theme": {
-          "id": 2,
+          "id": 3,
           "themeBG": "light",
           "blurColor": "type_one"
         }

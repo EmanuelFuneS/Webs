@@ -1,3 +1,5 @@
+import Image from "next/image";
+import path from "path";
 import { HeroSection } from "../../lib/types/common";
 import CTAButton from "../ui/CTA";
 import Text from "../ui/Text";
@@ -8,7 +10,7 @@ interface HeroProps {
 
 const Hero = ({ data }: HeroProps) => {
   return (
-    <section className="bg-[#041527] h-screen text-white">
+    <section className="bg-[#041527] text-white">
       <div className="h-full w-full flex flex-col items-center text-center p-16">
         <div>
           <div className="space-y-10">
@@ -26,8 +28,15 @@ const Hero = ({ data }: HeroProps) => {
               </CTAButton>
             ))}
           </div>
-          <div className="h-100"></div>
-          {/* <Image src={data.demoImages[0]!.url} alt="demo" /> */}
+          <div className="h-100">
+            <Image
+              src={`/strapi-images/${path.basename(data.demoImages[0]!.url)}`}
+              alt="demo"
+              width={data.demoImages[0]!.width}
+              height={data.demoImages[0]!.height}
+              priority
+            />
+          </div>
 
           <p>TRUSTED BY +25.000 BUSINESSES</p>
           <div className="flex justify-center w-full space-x-10 my-8">

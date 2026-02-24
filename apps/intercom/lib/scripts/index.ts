@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 
 import dotenv from "dotenv";
+import { Sections } from "../types/common";
 
 dotenv.config();
 
@@ -35,28 +36,59 @@ async function fetchAndSave() {
 
     fs.writeFileSync(outputPath, JSON.stringify(data, null, 2), "utf-8");
     console.log(`Data saved to ${outputPath}`);
+    return data;
   } catch (error) {
     console.error("Error fetching and save Data:", error);
     process.exit(1);
   }
 }
+export async function collectImages(obj: any, images: any[]): any[] {
+  if (!obj || typeof obj !== "object") return images;
 
-export async function downloadImages(data: any) {
-  for (const section of data.sections) {
-    for (const img of section.demoImages) {
-      const url = `https://${STRAPI_URL}${img.url}`;
-      const filename = path.basename(img.url);
-      const localPath = `public/strapi-images/${filename}`;
+  if (obj.url && obj.mime) {
+    images.push(obj);
+    return images;
+  }
 
-      const response = await fetch(url);
-      const buffer = await response.arrayBuffer();
+  if (Array.isArray(obj)) {
+    for (const item of obj) collectImages(item, images);
+  } else {
+    for (const value of Object.values(obj)) collectImages(value, images);
+  }
+  return images;
+}
 
-      fs.mkdirSync("public/strapi-images", { recursive: true });
-      fs.writeFileSync(localPath, Buffer.from(buffer));
+export async function downloadImages(sections: Sections[]) {
+  const images = await collectImages(sections, []);
 
-      img.url = `/strapi-images/${filename}`;
-    }
+  if (images.length === 0) {
+    throw new Error("No images found in data");
+  }
+
+  if (fs.existsSync("public/strapi-images")) {
+    fs.rmSync("public/strapi-images", { recursive: true });
+  }
+
+  fs.mkdirSync("public/strapi-images", { recursive: true });
+
+  for (const img of images) {
+    const url = `${STRAPI_URL}${img.url}`;
+    const filename = path.basename(img.url);
+    const localPath = `public/strapi-images/${filename}`;
+
+    const response = await fetch(url);
+    const buffer = await response.arrayBuffer();
+
+    fs.writeFileSync(localPath, Buffer.from(buffer));
+    img.url = `/strapi-images/${filename}`;
+
+    console.log(`Image saved to ${localPath}`);
   }
 }
 
-fetchAndSave();
+const result = await fetchAndSave();
+
+if (!result) {
+  throw new Error("Data is not defined");
+}
+await downloadImages(result.data.sections);

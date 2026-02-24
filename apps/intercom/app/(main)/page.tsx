@@ -14,9 +14,8 @@ const data = json.data.sections.filter(
     section.__component !== "sections.footer",
 );
 const page = () => {
-  console.log("DATA WITHOUT NAV AND FOOTER", data);
   return (
-    <div>
+    <div className="w-full">
       {data.map((section, idx) => (
         <DynamicZone key={idx} section={section} />
       ))}
