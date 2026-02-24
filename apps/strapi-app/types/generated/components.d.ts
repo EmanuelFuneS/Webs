@@ -184,7 +184,7 @@ export interface SectionsFeature extends Struct.ComponentSchema {
     displayName: 'Feature';
   };
   attributes: {
-    demoImages: Schema.Attribute.Media<'images' | 'files' | 'videos', true>;
+    demoImages: Schema.Attribute.Media<'images' | 'files', true>;
     description: Schema.Attribute.Component<'base-components.text', false>;
     headLine: Schema.Attribute.Component<'base-components.head-line', false>;
     keyPoints: Schema.Attribute.Component<'base-components.key-point', true>;
@@ -215,7 +215,7 @@ export interface SectionsHero extends Struct.ComponentSchema {
   };
   attributes: {
     cta: Schema.Attribute.Component<'base-components.button', true>;
-    demoImages: Schema.Attribute.Media<'images' | 'files' | 'videos', true>;
+    demoImages: Schema.Attribute.Media<'images' | 'files', true>;
     description: Schema.Attribute.Component<'base-components.text', false>;
     sponsors: Schema.Attribute.Component<'base-components.label', true>;
     title: Schema.Attribute.Component<'base-components.head-line', false>;

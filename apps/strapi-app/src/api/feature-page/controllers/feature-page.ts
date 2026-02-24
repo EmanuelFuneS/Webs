@@ -77,7 +77,13 @@ export default factories.createCoreController(
                 currentDepth + 1,
               );
               if (Object.keys(compPopulate).length > 0) {
-                dzPopulate[componentUID] = { populate: "*" }; // ← cambio aquí
+                dzPopulate[componentUID] = {
+                  populate: buildDeepPopulate(
+                    componentSchema,
+                    maxDepth,
+                    currentDepth + 1,
+                  ),
+                };
               }
             }
 
@@ -92,9 +98,7 @@ export default factories.createCoreController(
             populate[attributeName] = { populate: "*" };
             break;
           case "media":
-            if (currentDepth === 0) {
-              populate[attributeName] = true;
-            }
+            populate[attributeName] = true;
             break;
         }
       }
