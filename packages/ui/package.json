@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
+    ".": "./src/*.tsx",
     "./*": "./src/*.tsx",
     "./globals.css": "./src/styles/globals.css",
     "./postcss.config": "./postcss.config.mjs"
@@ -26,6 +27,7 @@
     "postcss": "^8.4.38",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-icons": "^5.5.0",
     "tailwindcss": "^4.1.18"
   }
 }
