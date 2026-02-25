@@ -8,9 +8,12 @@ interface CTAProps {
 }
 
 export const variants = {
-  primary: "text-primary",
-  secondary: "text-secondary",
-  tertiary: "text-tertiary",
+  primary:
+    "text-primary  hover:transform-gpu scale-110 transition-transform duration-300",
+  secondary:
+    "text-secondary  hover:transform-gpu scale-110 transition-transform duration-300",
+  tertiary:
+    "text-tertiary  hover:transform-gpu scale-110 transition-transform duration-300",
 };
 
 const CTAButton = ({ as, variant, children }: CTAProps) => {

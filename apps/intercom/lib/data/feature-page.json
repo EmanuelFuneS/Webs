@@ -1,13 +1,13 @@
 {
   "data": {
-    "id": 3,
+    "id": 5,
     "documentId": "jnhhkkn8r2kny5jb963f1wss",
     "createdAt": "2026-02-21T14:57:40.149Z",
-    "updatedAt": "2026-02-24T02:02:25.937Z",
-    "publishedAt": "2026-02-24T02:02:26.026Z",
+    "updatedAt": "2026-02-25T21:39:17.672Z",
+    "publishedAt": "2026-02-25T21:39:17.773Z",
     "locale": "en",
     "seo": {
-      "id": 3,
+      "id": 5,
       "metaTitle": null,
       "metaDescription": null,
       "metaKeywords": null,
@@ -20,7 +20,7 @@
     "sections": [
       {
         "__component": "sections.navbar",
-        "id": 3,
+        "id": 5,
         "logo": {
           "id": 7,
           "documentId": "j38r5hso4i7368csibz67y57",
@@ -44,40 +44,40 @@
         },
         "links": [
           {
-            "id": 11,
+            "id": 21,
             "href": null,
             "text": "Product"
           },
           {
-            "id": 12,
+            "id": 22,
             "href": null,
             "text": "Solutions"
           },
           {
-            "id": 13,
+            "id": 23,
             "href": null,
             "text": "Customer"
           },
           {
-            "id": 14,
+            "id": 24,
             "href": null,
             "text": "Resources"
           },
           {
-            "id": 15,
+            "id": 25,
             "href": null,
             "text": "Pricing"
           }
         ],
         "ctas": [
           {
-            "id": 9,
+            "id": 17,
             "as": "button",
             "text": "Start Free Trial",
             "variant": "cta"
           },
           {
-            "id": 10,
+            "id": 18,
             "as": "button",
             "text": "View Demo",
             "variant": "cta"
@@ -86,28 +86,28 @@
       },
       {
         "__component": "sections.hero",
-        "id": 3,
+        "id": 5,
         "title": {
-          "id": 5,
+          "id": 13,
           "as": "heading_one",
           "variant": "primary",
           "text": "The only AI customer service Solution you need"
         },
         "description": {
-          "id": 5,
+          "id": 13,
           "as": "paragraph",
           "variant": "secondary",
           "text": "Resolve issues faster and boost customer satisfaction -- all while reducing team workload -- with the only customer service solutions you'll ever need."
         },
         "cta": [
           {
-            "id": 11,
+            "id": 19,
             "as": "button",
             "text": "Start free trial",
             "variant": "cta"
           },
           {
-            "id": 12,
+            "id": 20,
             "as": "button",
             "text": "View Demo",
             "variant": "cta"
@@ -187,42 +187,216 @@
         ],
         "sponsors": [
           {
-            "id": 10,
-            "as": "label",
-            "variant": "tertiary",
-            "text": "ATASSIAN"
+            "id": 14,
+            "logo": {
+              "id": 13,
+              "documentId": "agzp8i8drc69z9dz4966rdlf",
+              "name": "atlassian.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 136,
+              "height": 51,
+              "formats": null,
+              "hash": "atlassian_4906fa63b2",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 4.24,
+              "url": "/uploads/atlassian_4906fa63b2.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:32.675Z",
+              "updatedAt": "2026-02-25T00:58:32.675Z",
+              "publishedAt": "2026-02-25T00:58:32.676Z"
+            }
           },
           {
-            "id": 11,
-            "as": "label",
-            "variant": "tertiary",
-            "text": "ClickTravel"
+            "id": 15,
+            "logo": {
+              "id": 14,
+              "documentId": "qt0bcqkhwly1c4mb295vpq88",
+              "name": "clickTravel.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 133,
+              "height": 30,
+              "formats": null,
+              "hash": "click_Travel_4ecc5b9725",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 20.1,
+              "url": "/uploads/click_Travel_4ecc5b9725.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:32.690Z",
+              "updatedAt": "2026-02-25T00:58:32.690Z",
+              "publishedAt": "2026-02-25T00:58:32.690Z"
+            }
           },
           {
-            "id": 12,
-            "as": "label",
-            "variant": "tertiary",
-            "text": "Notion"
+            "id": 16,
+            "logo": {
+              "id": 12,
+              "documentId": "jro43rmzcbpuz9q8od9umc61",
+              "name": "notion.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 91,
+              "height": 51,
+              "formats": null,
+              "hash": "notion_e9239d5d3f",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 3.67,
+              "url": "/uploads/notion_e9239d5d3f.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:32.647Z",
+              "updatedAt": "2026-02-25T00:58:32.647Z",
+              "publishedAt": "2026-02-25T00:58:32.648Z"
+            }
+          },
+          {
+            "id": 17,
+            "logo": {
+              "id": 11,
+              "documentId": "ks2fpuaimba4n256z5aq2pyo",
+              "name": "etoro.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 85,
+              "height": 27,
+              "formats": null,
+              "hash": "etoro_96dff012a3",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 3.98,
+              "url": "/uploads/etoro_96dff012a3.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:32.560Z",
+              "updatedAt": "2026-02-25T00:58:32.560Z",
+              "publishedAt": "2026-02-25T00:58:32.560Z"
+            }
+          },
+          {
+            "id": 18,
+            "logo": {
+              "id": 10,
+              "documentId": "geqmjjkkek6j84hyzlniw17v",
+              "name": "h&r.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 116,
+              "height": 51,
+              "formats": null,
+              "hash": "h_and_r_0c9d1d16a5",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 3.66,
+              "url": "/uploads/h_and_r_0c9d1d16a5.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:32.277Z",
+              "updatedAt": "2026-02-25T00:58:32.277Z",
+              "publishedAt": "2026-02-25T00:58:32.277Z"
+            }
+          },
+          {
+            "id": 19,
+            "logo": {
+              "id": 13,
+              "documentId": "agzp8i8drc69z9dz4966rdlf",
+              "name": "atlassian.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 136,
+              "height": 51,
+              "formats": null,
+              "hash": "atlassian_4906fa63b2",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 4.24,
+              "url": "/uploads/atlassian_4906fa63b2.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:32.675Z",
+              "updatedAt": "2026-02-25T00:58:32.675Z",
+              "publishedAt": "2026-02-25T00:58:32.676Z"
+            }
+          },
+          {
+            "id": 20,
+            "logo": {
+              "id": 14,
+              "documentId": "qt0bcqkhwly1c4mb295vpq88",
+              "name": "clickTravel.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 133,
+              "height": 30,
+              "formats": null,
+              "hash": "click_Travel_4ecc5b9725",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 20.1,
+              "url": "/uploads/click_Travel_4ecc5b9725.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:32.690Z",
+              "updatedAt": "2026-02-25T00:58:32.690Z",
+              "publishedAt": "2026-02-25T00:58:32.690Z"
+            }
+          },
+          {
+            "id": 21,
+            "logo": {
+              "id": 12,
+              "documentId": "jro43rmzcbpuz9q8od9umc61",
+              "name": "notion.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 91,
+              "height": 51,
+              "formats": null,
+              "hash": "notion_e9239d5d3f",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 3.67,
+              "url": "/uploads/notion_e9239d5d3f.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:32.647Z",
+              "updatedAt": "2026-02-25T00:58:32.647Z",
+              "publishedAt": "2026-02-25T00:58:32.648Z"
+            }
           }
         ]
       },
       {
         "__component": "sections.feature",
-        "id": 3,
+        "id": 9,
         "sectionLabel": {
-          "id": 9,
+          "id": 18,
           "as": "span",
           "variant": "tertiary",
           "text": "Automation"
         },
         "headLine": {
-          "id": 6,
+          "id": 14,
           "as": "heading_one",
           "variant": "primary",
           "text": "Automate conversations with the power of AI"
         },
         "description": {
-          "id": 6,
+          "id": 14,
           "as": "paragraph",
           "variant": "secondary",
           "text": "Reduce support volumes and incease customer satisfaction in minutes with intercom's AI-powered chatbots and automation tools"
@@ -265,24 +439,24 @@
         ],
         "keyPoints": [
           {
-            "id": 7,
+            "id": 25,
             "icon": "check",
             "text": "Unlock the best AI-powered customer service tools in minutes"
           },
           {
-            "id": 8,
+            "id": 26,
             "icon": "check",
             "text": "Lower your costs with more efficient support teams"
           },
           {
-            "id": 9,
+            "id": 27,
             "icon": "check",
             "text": "Scale Support without sacrificing customer experience"
           }
         ],
         "useCases": [
           {
-            "id": 11,
+            "id": 45,
             "headLine": "Fin",
             "subLine": "Our AI-powered bot automatically and accuarately answers support quersions with zero training required",
             "imageCase": {
@@ -308,7 +482,7 @@
             }
           },
           {
-            "id": 12,
+            "id": 46,
             "headLine": "Workflows",
             "subLine": "Easily build powerfull no-code automations with bots, triggers, conditions, and rules -- all in one place",
             "imageCase": {
@@ -334,7 +508,7 @@
             }
           },
           {
-            "id": 13,
+            "id": 47,
             "headLine": "Ai-powered Inbox",
             "subLine": "Instantly generate replies, recap, conversations for other agents, and create new help articles.",
             "imageCase": {
@@ -360,7 +534,7 @@
             }
           },
           {
-            "id": 14,
+            "id": 48,
             "headLine": "Article suggestions",
             "subLine": "Immediately recommend helpful content with machine learning -- directly in your product",
             "imageCase": {
@@ -386,7 +560,7 @@
             }
           },
           {
-            "id": 15,
+            "id": 49,
             "headLine": "Conversation topics",
             "subLine": "Better understand your customers with AI-powered analysis of support conversations.",
             "imageCase": {
@@ -414,10 +588,10 @@
         ],
         "testimonials": [
           {
-            "id": 3,
+            "id": 9,
             "company": "Zilch",
             "message": "\"Our bot deflection rate with our previous customer service solutions was 5-10%. With Intercom, we archieved 65% bot deflection within just one week of going live.\"",
-            "AuthorName": "Stuart Sykes",
+            "authorName": "Stuart Sykes",
             "authorRol": "VP of Service Operations, Zilch",
             "authorPhoto": [
               {
@@ -445,9 +619,624 @@
           }
         ],
         "theme": {
-          "id": 3,
+          "id": 9,
           "themeBG": "light",
-          "blurColor": "type_one"
+          "blurColor": "type_one",
+          "gridDistribution": "five|two|tree"
+        }
+      },
+      {
+        "__component": "sections.feature",
+        "id": 10,
+        "sectionLabel": {
+          "id": 19,
+          "as": "span",
+          "variant": "tertiary",
+          "text": "Inbox"
+        },
+        "headLine": {
+          "id": 15,
+          "as": "heading_one",
+          "variant": "primary",
+          "text": "Maximize team productivity with the world's fastest shared Inbox"
+        },
+        "description": {
+          "id": 15,
+          "as": "paragraph",
+          "variant": "secondary",
+          "text": "Our AI-enhanced Inbox is lightning fast, easy-to-use, and optimized for efficiency -- with everything a modern support team needs."
+        },
+        "demoImages": [
+          {
+            "id": 38,
+            "documentId": "dzu1udhrijk5w0i2anr07hkl",
+            "name": "inbox.png",
+            "alternativeText": null,
+            "caption": null,
+            "width": 1242,
+            "height": 616,
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_inbox.png",
+                "hash": "thumbnail_inbox_537826709a",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 245,
+                "height": 122,
+                "size": 14.76,
+                "sizeInBytes": 14759,
+                "url": "/uploads/thumbnail_inbox_537826709a.png"
+              },
+              "small": {
+                "name": "small_inbox.png",
+                "hash": "small_inbox_537826709a",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 500,
+                "height": 248,
+                "size": 43.76,
+                "sizeInBytes": 43757,
+                "url": "/uploads/small_inbox_537826709a.png"
+              },
+              "medium": {
+                "name": "medium_inbox.png",
+                "hash": "medium_inbox_537826709a",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 750,
+                "height": 372,
+                "size": 86.07,
+                "sizeInBytes": 86068,
+                "url": "/uploads/medium_inbox_537826709a.png"
+              },
+              "large": {
+                "name": "large_inbox.png",
+                "hash": "large_inbox_537826709a",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 1000,
+                "height": 496,
+                "size": 140.21,
+                "sizeInBytes": 140212,
+                "url": "/uploads/large_inbox_537826709a.png"
+              }
+            },
+            "hash": "inbox_537826709a",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 42.01,
+            "url": "/uploads/inbox_537826709a.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2026-02-25T00:58:35.918Z",
+            "updatedAt": "2026-02-25T00:58:35.918Z",
+            "publishedAt": "2026-02-25T00:58:35.918Z"
+          }
+        ],
+        "keyPoints": [
+          {
+            "id": 28,
+            "icon": "check",
+            "text": "Faster customer resolutions"
+          },
+          {
+            "id": 29,
+            "icon": "check",
+            "text": "Prevent team burnout"
+          },
+          {
+            "id": 30,
+            "icon": "check",
+            "text": "Lower your costs"
+          }
+        ],
+        "useCases": [
+          {
+            "id": 50,
+            "headLine": "Ticketing",
+            "subLine": "Easily collaborate with colleagues to quickly slove complex problems, as well as allow customers to track progress in real time.",
+            "imageCase": {
+              "id": 35,
+              "documentId": "mr5tqohqs0sku4fjw3oiy3s3",
+              "name": "Inbox-1.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 603,
+              "height": 302,
+              "formats": null,
+              "hash": "Inbox_1_a34cd84ed9",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 121.62,
+              "url": "/uploads/Inbox_1_a34cd84ed9.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:35.571Z",
+              "updatedAt": "2026-02-25T00:58:35.571Z",
+              "publishedAt": "2026-02-25T00:58:35.571Z"
+            }
+          },
+          {
+            "id": 51,
+            "headLine": "Configurable",
+            "subLine": "Change language, turn on dark mode, save custom views and more.",
+            "imageCase": {
+              "id": 34,
+              "documentId": "milm684tfvx3wje30q6taiik",
+              "name": "inbox-2.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 286,
+              "height": 211,
+              "formats": null,
+              "hash": "inbox_2_96b9acc46f",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 23.23,
+              "url": "/uploads/inbox_2_96b9acc46f.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:35.522Z",
+              "updatedAt": "2026-02-25T00:58:35.522Z",
+              "publishedAt": "2026-02-25T00:58:35.522Z"
+            }
+          },
+          {
+            "id": 52,
+            "headLine": "Omnichannel",
+            "subLine": "See all your support conversations in one place.",
+            "imageCase": {
+              "id": 33,
+              "documentId": "hpus1xfee25kzcbk1rksi2yj",
+              "name": "inbox-3.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 286,
+              "height": 211,
+              "formats": null,
+              "hash": "inbox_3_d465f0560c",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 178.83,
+              "url": "/uploads/inbox_3_d465f0560c.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:35.483Z",
+              "updatedAt": "2026-02-25T00:58:35.483Z",
+              "publishedAt": "2026-02-25T00:58:35.483Z"
+            }
+          },
+          {
+            "id": 53,
+            "headLine": "Multiplayer",
+            "subLine": "Collaborate efficiently with teammates in real time thanks to co-presence indicators, notes, and @mentions.",
+            "imageCase": {
+              "id": 32,
+              "documentId": "duqq4883hv9bq1du0h8ztvgs",
+              "name": "inbox-4.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 391,
+              "height": 260,
+              "formats": null,
+              "hash": "inbox_4_a9d09022cd",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 60.07,
+              "url": "/uploads/inbox_4_a9d09022cd.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:35.310Z",
+              "updatedAt": "2026-02-25T00:58:35.310Z",
+              "publishedAt": "2026-02-25T00:58:35.310Z"
+            }
+          },
+          {
+            "id": 54,
+            "headLine": "Lightning fast",
+            "subLine": "Win time back with powerful macros, nonexistent load times, and simple shortcuts that put yourn entire inbox a CMD+K away.",
+            "imageCase": {
+              "id": 30,
+              "documentId": "bhyb9rrxeopcni3by78b3u7a",
+              "name": "inbox-5.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 391,
+              "height": 260,
+              "formats": null,
+              "hash": "inbox_5_33b42c2ebe",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 65.61,
+              "url": "/uploads/inbox_5_33b42c2ebe.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:35.082Z",
+              "updatedAt": "2026-02-25T00:58:35.082Z",
+              "publishedAt": "2026-02-25T00:58:35.082Z"
+            }
+          },
+          {
+            "id": 55,
+            "headLine": "Team management",
+            "subLine": "Get more done by optimizing operations with live dashboards, reporting, work managment tools, and more.",
+            "imageCase": {
+              "id": 29,
+              "documentId": "jj7w046vgplsvzv3gfpqqdqd",
+              "name": "inbox-6.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 391,
+              "height": 260,
+              "formats": null,
+              "hash": "inbox_6_25c5666ebc",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 59.54,
+              "url": "/uploads/inbox_6_25c5666ebc.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:35.035Z",
+              "updatedAt": "2026-02-25T00:58:35.035Z",
+              "publishedAt": "2026-02-25T00:58:35.036Z"
+            }
+          }
+        ],
+        "testimonials": [
+          {
+            "id": 10,
+            "company": "Wolt",
+            "message": "\"The thing i noticed most about Inbox is the speed. In a test, we saw a 15% increase in the number of conversations handled.\"",
+            "authorName": "Pelle Blarke",
+            "authorRol": "International Strategy and Operations Manager, Wolt",
+            "authorPhoto": [
+              {
+                "id": 28,
+                "documentId": "nnutj6edeeg0muf88bo77o8s",
+                "name": "Avatar-1svg.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 89,
+                "height": 89,
+                "formats": null,
+                "hash": "Avatar_1svg_8579c8ef4f",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 64.29,
+                "url": "/uploads/Avatar_1svg_8579c8ef4f.svg",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2026-02-25T00:58:34.968Z",
+                "updatedAt": "2026-02-25T00:58:34.968Z",
+                "publishedAt": "2026-02-25T00:58:34.969Z"
+              }
+            ]
+          }
+        ],
+        "theme": {
+          "id": 10,
+          "themeBG": "light",
+          "blurColor": "type_two",
+          "gridDistribution": "six|two|tree"
+        }
+      },
+      {
+        "__component": "sections.feature",
+        "id": 11,
+        "sectionLabel": {
+          "id": 20,
+          "as": "span",
+          "variant": "tertiary",
+          "text": "Proactive Support"
+        },
+        "headLine": {
+          "id": 16,
+          "as": "heading_one",
+          "variant": "primary",
+          "text": "Get ahead of known issues and slash support volume"
+        },
+        "description": {
+          "id": 16,
+          "as": "paragraph",
+          "variant": "secondary",
+          "text": "Resolve customer issues before they contact you. Our proactive support tools cut down contact rates boosting customer satisfaction"
+        },
+        "demoImages": [
+          {
+            "id": 31,
+            "documentId": "u5zoqxa2oftk336ojgf3l3jj",
+            "name": "support.png",
+            "alternativeText": null,
+            "caption": null,
+            "width": 1242,
+            "height": 621,
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_support.png",
+                "hash": "thumbnail_support_62df642c30",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 245,
+                "height": 122,
+                "size": 23.31,
+                "sizeInBytes": 23309,
+                "url": "/uploads/thumbnail_support_62df642c30.png"
+              },
+              "small": {
+                "name": "small_support.png",
+                "hash": "small_support_62df642c30",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 500,
+                "height": 250,
+                "size": 72.17,
+                "sizeInBytes": 72174,
+                "url": "/uploads/small_support_62df642c30.png"
+              },
+              "medium": {
+                "name": "medium_support.png",
+                "hash": "medium_support_62df642c30",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 750,
+                "height": 375,
+                "size": 153.87,
+                "sizeInBytes": 153865,
+                "url": "/uploads/medium_support_62df642c30.png"
+              },
+              "large": {
+                "name": "large_support.png",
+                "hash": "large_support_62df642c30",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 1000,
+                "height": 500,
+                "size": 263.37,
+                "sizeInBytes": 263373,
+                "url": "/uploads/large_support_62df642c30.png"
+              }
+            },
+            "hash": "support_62df642c30",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 92.13,
+            "url": "/uploads/support_62df642c30.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2026-02-25T00:58:35.262Z",
+            "updatedAt": "2026-02-25T00:58:35.262Z",
+            "publishedAt": "2026-02-25T00:58:35.262Z"
+          }
+        ],
+        "keyPoints": [
+          {
+            "id": 31,
+            "icon": "check",
+            "text": "Reduce inbound volume"
+          },
+          {
+            "id": 32,
+            "icon": "check",
+            "text": "Increase CSAT"
+          },
+          {
+            "id": 33,
+            "icon": "check",
+            "text": "No engineering resources needed"
+          }
+        ],
+        "useCases": [
+          {
+            "id": 56,
+            "headLine": "Help Center",
+            "subLine": "Let customers search and browse support articles directly in your product and on the web",
+            "imageCase": {
+              "id": 27,
+              "documentId": "gdvyklh57jwj4wxkke7ftp2u",
+              "name": "support.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 390,
+              "height": 259,
+              "formats": null,
+              "hash": "support_0aaced6868",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 73.29,
+              "url": "/uploads/support_0aaced6868.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:34.865Z",
+              "updatedAt": "2026-02-25T00:58:34.865Z",
+              "publishedAt": "2026-02-25T00:58:34.865Z"
+            }
+          },
+          {
+            "id": 57,
+            "headLine": "Checklists",
+            "subLine": "Onboard customers without taking time from your team thanks to contextual and presonalized task lists.",
+            "imageCase": {
+              "id": 26,
+              "documentId": "qtgnwc1dc08jh7fhnb8ta3ye",
+              "name": "support-1.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 390,
+              "height": 259,
+              "formats": null,
+              "hash": "support_1_915fcd924d",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 37.5,
+              "url": "/uploads/support_1_915fcd924d.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:34.579Z",
+              "updatedAt": "2026-02-25T00:58:34.579Z",
+              "publishedAt": "2026-02-25T00:58:34.579Z"
+            }
+          },
+          {
+            "id": 58,
+            "headLine": "Banners ",
+            "subLine": "Inform specific customers of planned changes, events, or services interruptions.",
+            "imageCase": {
+              "id": 25,
+              "documentId": "xsmlik3pr4w00pozd9mp59c8",
+              "name": "support-2.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 390,
+              "height": 259,
+              "formats": null,
+              "hash": "support_2_f80476cbe4",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 235.19,
+              "url": "/uploads/support_2_f80476cbe4.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:34.545Z",
+              "updatedAt": "2026-02-25T00:58:34.545Z",
+              "publishedAt": "2026-02-25T00:58:34.546Z"
+            }
+          },
+          {
+            "id": 59,
+            "headLine": "Tooltips",
+            "subLine": "Add help content directly into your product without enginnering resources using our no-code UI.",
+            "imageCase": {
+              "id": 23,
+              "documentId": "guhtng0qdmbccluc71ced95l",
+              "name": "support-3.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 285,
+              "height": 211,
+              "formats": null,
+              "hash": "support_3_007ec58cba",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 34.09,
+              "url": "/uploads/support_3_007ec58cba.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:34.424Z",
+              "updatedAt": "2026-02-25T00:58:34.424Z",
+              "publishedAt": "2026-02-25T00:58:34.424Z"
+            }
+          },
+          {
+            "id": 60,
+            "headLine": "Outbound Messages",
+            "subLine": "Automatically trigger an in-app chat, email, or SMS message when a customer needs help.",
+            "imageCase": {
+              "id": 22,
+              "documentId": "n6uv37kku1rrimivinrlsdzl",
+              "name": "support-4.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 285,
+              "height": 211,
+              "formats": null,
+              "hash": "support_4_b1cd70d865",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 20.31,
+              "url": "/uploads/support_4_b1cd70d865.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:34.371Z",
+              "updatedAt": "2026-02-25T00:58:34.371Z",
+              "publishedAt": "2026-02-25T00:58:34.371Z"
+            }
+          },
+          {
+            "id": 61,
+            "headLine": "Product Tours",
+            "subLine": "Drive adoption of new features and deepen customer engagement with guided experiences.",
+            "imageCase": {
+              "id": 24,
+              "documentId": "vsjawo899dltu7hcysf62ejy",
+              "name": "support-5.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 602,
+              "height": 302,
+              "formats": null,
+              "hash": "support_5_13f5a65a33",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 140.16,
+              "url": "/uploads/support_5_13f5a65a33.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:34.467Z",
+              "updatedAt": "2026-02-25T00:58:34.467Z",
+              "publishedAt": "2026-02-25T00:58:34.468Z"
+            }
+          }
+        ],
+        "testimonials": [
+          {
+            "id": 11,
+            "company": "TrueCommerce",
+            "message": "\"Self-service and proactive support have helped us reduce inbound conversation volume by 20% over the past two years, even as our user base has continued to grow.\"\"",
+            "authorName": "Christian Parker",
+            "authorRol": "Director of Managed Services, TrueCommerce",
+            "authorPhoto": [
+              {
+                "id": 17,
+                "documentId": "cmia2oqx14rs4uniii76no13",
+                "name": "Avatar-2.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 89,
+                "height": 89,
+                "formats": null,
+                "hash": "Avatar_2_98a66327df",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 71.63,
+                "url": "/uploads/Avatar_2_98a66327df.svg",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2026-02-25T00:58:33.871Z",
+                "updatedAt": "2026-02-25T00:58:33.871Z",
+                "publishedAt": "2026-02-25T00:58:33.872Z"
+              }
+            ]
+          }
+        ],
+        "theme": {
+          "id": 11,
+          "themeBG": "light",
+          "blurColor": "type_three",
+          "gridDistribution": "tree|two|six"
         }
       }
     ]

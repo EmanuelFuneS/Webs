@@ -90,8 +90,9 @@ export interface Testimonial {
 }
 export interface Theme {
   id: number;
-  themeBG: string;
-  blurColor: string;
+  themeBG: "dark" | "light";
+  blurColor: TypeGradient;
+  gridDistribution: GridConfigType;
 }
 
 export type AS =
@@ -155,3 +156,11 @@ export interface NavbarSection {
 export type Sections =
   /*   | NavbarSection */
   HeroSection | FeatureSection;
+
+export type GridConfigType =
+  | "five|two|tree"
+  | "six|two|tree"
+  | "tree|two|six"
+  | "six|two|four";
+
+export type TypeGradient = "type_one" | "type_two" | "type_three" | "type_four";
