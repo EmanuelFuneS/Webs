@@ -18,7 +18,17 @@
       "enum": [
         "type_one",
         "type_two",
-        "type_three"
+        "type_three",
+        "type_four"
+      ]
+    },
+    "gridDistribution": {
+      "type": "enumeration",
+      "enum": [
+        "five|two|tree",
+        "six|two|tree",
+        "tree|two|six",
+        "six|two|four"
       ]
     }
   },

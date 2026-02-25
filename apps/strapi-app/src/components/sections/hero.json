@@ -30,7 +30,7 @@
     },
     "sponsors": {
       "type": "component",
-      "component": "base-components.label",
+      "component": "base-components.sponsor",
       "repeatable": true
     }
   },

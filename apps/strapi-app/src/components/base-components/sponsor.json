@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_base_components_sponsors",
+  "info": {
+    "displayName": "sponsor",
+    "icon": "television"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "files",
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -112,13 +112,24 @@ export interface BaseComponentsSeo extends Struct.ComponentSchema {
   };
 }
 
+export interface BaseComponentsSponsor extends Struct.ComponentSchema {
+  collectionName: 'components_base_components_sponsors';
+  info: {
+    displayName: 'sponsor';
+    icon: 'television';
+  };
+  attributes: {
+    logo: Schema.Attribute.Media<'files' | 'images'>;
+  };
+}
+
 export interface BaseComponentsTestimonial extends Struct.ComponentSchema {
   collectionName: 'components_base_components_testimonials';
   info: {
     displayName: 'Testimonial';
   };
   attributes: {
-    AuthorName: Schema.Attribute.String;
+    authorName: Schema.Attribute.String;
     authorPhoto: Schema.Attribute.Media<'images' | 'files', true>;
     authorRol: Schema.Attribute.String;
     company: Schema.Attribute.String;
@@ -160,7 +171,10 @@ export interface BaseComponentsTheme extends Struct.ComponentSchema {
   };
   attributes: {
     blurColor: Schema.Attribute.Enumeration<
-      ['type_one', 'type_two', 'type_three']
+      ['type_one', 'type_two', 'type_three', 'type_four']
+    >;
+    gridDistribution: Schema.Attribute.Enumeration<
+      ['five|two|tree', 'six|two|tree', 'tree|two|six', 'six|two|four']
     >;
     themeBG: Schema.Attribute.Enumeration<['dark', 'light']>;
   };
@@ -217,7 +231,7 @@ export interface SectionsHero extends Struct.ComponentSchema {
     cta: Schema.Attribute.Component<'base-components.button', true>;
     demoImages: Schema.Attribute.Media<'images' | 'files', true>;
     description: Schema.Attribute.Component<'base-components.text', false>;
-    sponsors: Schema.Attribute.Component<'base-components.label', true>;
+    sponsors: Schema.Attribute.Component<'base-components.sponsor', true>;
     title: Schema.Attribute.Component<'base-components.head-line', false>;
   };
 }
@@ -244,6 +258,7 @@ declare module '@strapi/strapi' {
       'base-components.label': BaseComponentsLabel;
       'base-components.link': BaseComponentsLink;
       'base-components.seo': BaseComponentsSeo;
+      'base-components.sponsor': BaseComponentsSponsor;
       'base-components.testimonial': BaseComponentsTestimonial;
       'base-components.text': BaseComponentsText;
       'base-components.theme': BaseComponentsTheme;
