@@ -2,7 +2,7 @@ import DynamicZone from "../../components/DynamicZone";
 import jsonRaw from "../../lib/data/feature-page.json";
 import { Sections } from "../../lib/types/common";
 
-const json = jsonRaw as {
+const json = jsonRaw as unknown as {
   data: {
     sections: Sections[];
   };

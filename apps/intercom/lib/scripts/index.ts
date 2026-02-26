@@ -6,6 +6,12 @@ import { Sections } from "../types/common";
 
 dotenv.config();
 
+interface ImageObject {
+  url: string;
+  mime: string;
+  [key: string]: unknown;
+}
+
 const STRAPI_URL = process.env.STRAPI_URL || "http://localhost:1337";
 const API_TOKEN = process.env.STRAPI_API_TOKEN;
 
@@ -42,18 +48,21 @@ async function fetchAndSave() {
     process.exit(1);
   }
 }
-export async function collectImages(obj: any, images: any[]): any[] {
+export async function collectImages(
+  obj: unknown,
+  images: ImageObject[],
+): Promise<ImageObject[]> {
   if (!obj || typeof obj !== "object") return images;
 
-  if (obj.url && obj.mime) {
-    images.push(obj);
+  if ("url" in obj && "mime" in obj) {
+    images.push(obj as ImageObject);
     return images;
   }
 
   if (Array.isArray(obj)) {
-    for (const item of obj) collectImages(item, images);
+    for (const item of obj) await collectImages(item, images);
   } else {
-    for (const value of Object.values(obj)) collectImages(value, images);
+    for (const value of Object.values(obj)) await collectImages(value, images);
   }
   return images;
 }

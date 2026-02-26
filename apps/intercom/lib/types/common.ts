@@ -1,23 +1,25 @@
+import type { BlocksContent } from "@strapi/blocks-react-renderer";
+
 export interface SingleImage {
   id: number;
   documentId: string;
   name: string;
-  alternativeText: string;
-  caption: null;
+  alternativeText?: string;
+  caption: string | null;
   width: number;
   height: number;
-  formats: null;
+  formats?: null;
   hash: string;
   ext: string;
   mime: string;
-  size: string;
+  size: number;
   url: string;
-  previewUrl: null;
+  previewUrl?: string;
   provider: string;
-  provider_metadata: null;
+  provider_metadata?: string;
   createdAt: string;
   updatedAt: string;
-  publishedAt: string;
+  publishedAt?: string;
 }
 
 export interface Image {
@@ -25,7 +27,7 @@ export interface Image {
   documentId: string;
   name: string;
   alternativeText: string;
-  caption: null;
+  caption: string | null;
   width: number;
   height: number;
   formats: {
@@ -34,25 +36,25 @@ export interface Image {
       hash: string;
       ext: string;
       mime: string;
-      path: null;
+      path: null | string;
       width: number;
       height: number;
       size: number;
       sizeInBytes: number;
       url: string;
     };
-  };
+  } | null;
   hash: string;
   ext: string;
   mime: string;
   size: number;
   url: string;
-  previewUrl: null;
+  previewUrl: string | null;
   provider: string;
-  provider_metadata: null;
+  provider_metadata: string | null;
   createdAt: string;
   updatedAt: string;
-  publishedAt: string;
+  publishedAt: string | null;
 }
 
 export interface Link {
@@ -76,13 +78,13 @@ export interface UseCase {
   id: number;
   headLine: string;
   subLine: string;
-  imageCase: SingleImage;
+  imageCase: Image;
 }
 export interface Testimonial {
   id: number;
-  company: string;
-  message: string;
-  authorPhoto: Image[];
+  companyLogo: Image;
+  authorMessage: BlocksContent;
+  authorPhoto: Image;
   authorName: string;
   authorRol: string;
 }
@@ -146,7 +148,7 @@ export interface HeroSection {
 export interface NavbarSection {
   __component: string;
   id: number;
-  logo: SingleImage;
+  logo: Image;
   links: Link[];
   ctas: CTA[];
 }
@@ -162,3 +164,31 @@ export type GridConfigType =
   | "six|two|four";
 
 export type TypeGradient = "type_one" | "type_two" | "type_three" | "type_four";
+
+type RichTextNode = {
+  type:
+    | "paragraph"
+    | "heading"
+    | "list"
+    | "list-item"
+    | "link"
+    | "quote"
+    | "code";
+  children: RichTextChild[];
+  level?: number; // para headings
+  format?: "ordered" | "unordered"; // para lists
+};
+
+type RichTextChild = {
+  type: "text" | "link";
+  text?: string;
+  bold?: boolean;
+  italic?: boolean;
+  underline?: boolean;
+  strikethrough?: boolean;
+  code?: boolean;
+  url?: string; // para links
+  children?: RichTextChild[];
+};
+
+export type RichTextField = RichTextNode[];

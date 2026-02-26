@@ -1,4 +1,4 @@
-import { Sections } from "../../lib/types/common";
+import { FeatureSection, HeroSection, Sections } from "../../lib/types/common";
 import Feature from "../Feature";
 import Hero from "../Hero";
 
@@ -10,9 +10,14 @@ interface DynamicZoneProps {
 const DynamicZone = ({ section, index }: DynamicZoneProps) => {
   switch (section.__component) {
     case "sections.hero":
-      return <Hero data={section} />;
+      return <Hero data={section as unknown as Sections as HeroSection} />;
     case "sections.feature":
-      return <Feature data={section} featureIndex={index} />;
+      return (
+        <Feature
+          data={section as unknown as Sections as FeatureSection}
+          featureIndex={index}
+        />
+      );
     /* case "sections.footer":
       return <Footer data={sections} />; */
     /* case "sections.navbar":

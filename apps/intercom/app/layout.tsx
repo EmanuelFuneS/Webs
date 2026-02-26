@@ -1,8 +1,9 @@
 import "@workspace/ui/styles/globals.css";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import NavBar from "../components/Layout/navbar";
+import NavBar from "../components/Layout/Navbar";
 import data from "../lib/data/feature-page.json";
+import { NavbarSection } from "../lib/types/common";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -24,15 +25,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const navData = data.data.sections.find(
-    (section) => section.__component === "sections.navbar",
+    (section) => section.__component === "sections.navbar" && "logo" in section,
   );
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} max-w-7xl mx-auto h-full`}
-      >
-        <NavBar data={navData} />
-        <main className="max-w-7xl mx-auto px-2 py-4">{children}</main>
+      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        {navData && <NavBar data={navData as unknown as NavbarSection} />}
+        <main className="max-w-7xl mx-auto ">{children}</main>
       </body>
     </html>
   );

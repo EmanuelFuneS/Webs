@@ -7,6 +7,7 @@ import Text from "../ui/Text";
 import UseCaseCard from "../UseCaseCard";
 
 import PointKey from "../KeyPoint";
+import Testimonial from "../Testimonial";
 interface FeatureProps {
   data: FeatureSection;
   featureIndex: number;
@@ -21,7 +22,7 @@ const Feature = ({ data, featureIndex }: FeatureProps) => {
             <Text
               as={data.sectionLabel.as}
               variant={data.sectionLabel.variant}
-              className={`bg-${gradientHash[data.theme.blurColor]} py-2 px-4 rounded-2xl`}
+              className={`${gradientHash[data.theme.blurColor]} py-2 px-4 rounded-2xl`}
             >
               {data.sectionLabel.text}
             </Text>
@@ -36,7 +37,7 @@ const Feature = ({ data, featureIndex }: FeatureProps) => {
           </Text>
         </div>
         <div
-          className={`flex items-center justify-center my-10 rounded-2xl bg-${gradientHash[data.theme.blurColor]}`}
+          className={`flex items-center justify-center my-10 shadow-2xl rounded-2xl ${gradientHash[data.theme.blurColor]}`}
         >
           <Image
             src={`/strapi-images/${path.basename(data.demoImages[0]!.url)}`}
@@ -69,39 +70,7 @@ const Feature = ({ data, featureIndex }: FeatureProps) => {
 
         <div className="flex items-center justify-center my-20 mx-6">
           {data.testimonials.map((testimonial, idx) => (
-            <div key={idx} className="h-40 w-1/2 flex items-center flex-col">
-              <div>
-                <Text as="heading_four" variant="primary">
-                  {testimonial.company}
-                </Text>
-                <Text
-                  as="paragraph"
-                  variant="secondary"
-                  className="font-medium text-md"
-                >
-                  {testimonial.message}
-                </Text>
-              </div>
-              <div className="flex items-center">
-                <div className="bg-orange-100 h-20 w-20 rounded-full m-4 flex items-center justify-center">
-                  <Image
-                    src={`/strapi-images/${path.basename(data.testimonials[0]?.authorPhoto[0].url)}`}
-                    alt="demo"
-                    width={data.testimonials[0]?.authorPhoto[0].width}
-                    height={data.testimonials[0]?.authorPhoto[0].height}
-                    priority
-                  />
-                </div>
-                <div className="flex flex-col text-start">
-                  <Text as="label" variant="tertiary">
-                    {testimonial.authorName}
-                  </Text>
-                  <Text as="label" variant="secondary">
-                    {testimonial.authorRol}
-                  </Text>
-                </div>
-              </div>
-            </div>
+            <Testimonial key={idx} idx={idx} testimonial={testimonial} />
           ))}
         </div>
       </div>

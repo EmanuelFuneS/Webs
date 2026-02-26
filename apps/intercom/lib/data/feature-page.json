@@ -1,13 +1,13 @@
 {
   "data": {
-    "id": 5,
+    "id": 9,
     "documentId": "jnhhkkn8r2kny5jb963f1wss",
     "createdAt": "2026-02-21T14:57:40.149Z",
-    "updatedAt": "2026-02-25T21:39:17.672Z",
-    "publishedAt": "2026-02-25T21:39:17.773Z",
+    "updatedAt": "2026-02-26T16:47:13.652Z",
+    "publishedAt": "2026-02-26T16:47:13.752Z",
     "locale": "en",
     "seo": {
-      "id": 5,
+      "id": 9,
       "metaTitle": null,
       "metaDescription": null,
       "metaKeywords": null,
@@ -20,7 +20,7 @@
     "sections": [
       {
         "__component": "sections.navbar",
-        "id": 5,
+        "id": 9,
         "logo": {
           "id": 7,
           "documentId": "j38r5hso4i7368csibz67y57",
@@ -44,40 +44,40 @@
         },
         "links": [
           {
-            "id": 21,
+            "id": 41,
             "href": null,
             "text": "Product"
           },
           {
-            "id": 22,
+            "id": 42,
             "href": null,
             "text": "Solutions"
           },
           {
-            "id": 23,
+            "id": 43,
             "href": null,
             "text": "Customer"
           },
           {
-            "id": 24,
+            "id": 44,
             "href": null,
             "text": "Resources"
           },
           {
-            "id": 25,
+            "id": 45,
             "href": null,
             "text": "Pricing"
           }
         ],
         "ctas": [
           {
-            "id": 17,
+            "id": 33,
             "as": "button",
             "text": "Start Free Trial",
             "variant": "cta"
           },
           {
-            "id": 18,
+            "id": 34,
             "as": "button",
             "text": "View Demo",
             "variant": "cta"
@@ -86,28 +86,28 @@
       },
       {
         "__component": "sections.hero",
-        "id": 5,
+        "id": 9,
         "title": {
-          "id": 13,
+          "id": 29,
           "as": "heading_one",
           "variant": "primary",
           "text": "The only AI customer service Solution you need"
         },
         "description": {
-          "id": 13,
+          "id": 29,
           "as": "paragraph",
           "variant": "secondary",
           "text": "Resolve issues faster and boost customer satisfaction -- all while reducing team workload -- with the only customer service solutions you'll ever need."
         },
         "cta": [
           {
-            "id": 19,
+            "id": 35,
             "as": "button",
             "text": "Start free trial",
             "variant": "cta"
           },
           {
-            "id": 20,
+            "id": 36,
             "as": "button",
             "text": "View Demo",
             "variant": "cta"
@@ -187,7 +187,7 @@
         ],
         "sponsors": [
           {
-            "id": 14,
+            "id": 46,
             "logo": {
               "id": 13,
               "documentId": "agzp8i8drc69z9dz4966rdlf",
@@ -211,7 +211,7 @@
             }
           },
           {
-            "id": 15,
+            "id": 47,
             "logo": {
               "id": 14,
               "documentId": "qt0bcqkhwly1c4mb295vpq88",
@@ -235,7 +235,7 @@
             }
           },
           {
-            "id": 16,
+            "id": 48,
             "logo": {
               "id": 12,
               "documentId": "jro43rmzcbpuz9q8od9umc61",
@@ -259,7 +259,7 @@
             }
           },
           {
-            "id": 17,
+            "id": 49,
             "logo": {
               "id": 11,
               "documentId": "ks2fpuaimba4n256z5aq2pyo",
@@ -283,7 +283,7 @@
             }
           },
           {
-            "id": 18,
+            "id": 50,
             "logo": {
               "id": 10,
               "documentId": "geqmjjkkek6j84hyzlniw17v",
@@ -307,7 +307,7 @@
             }
           },
           {
-            "id": 19,
+            "id": 51,
             "logo": {
               "id": 13,
               "documentId": "agzp8i8drc69z9dz4966rdlf",
@@ -331,7 +331,7 @@
             }
           },
           {
-            "id": 20,
+            "id": 52,
             "logo": {
               "id": 14,
               "documentId": "qt0bcqkhwly1c4mb295vpq88",
@@ -355,7 +355,7 @@
             }
           },
           {
-            "id": 21,
+            "id": 53,
             "logo": {
               "id": 12,
               "documentId": "jro43rmzcbpuz9q8od9umc61",
@@ -382,21 +382,21 @@
       },
       {
         "__component": "sections.feature",
-        "id": 9,
+        "id": 21,
         "sectionLabel": {
-          "id": 18,
+          "id": 30,
           "as": "span",
           "variant": "tertiary",
           "text": "Automation"
         },
         "headLine": {
-          "id": 14,
+          "id": 30,
           "as": "heading_one",
           "variant": "primary",
           "text": "Automate conversations with the power of AI"
         },
         "description": {
-          "id": 14,
+          "id": 30,
           "as": "paragraph",
           "variant": "secondary",
           "text": "Reduce support volumes and incease customer satisfaction in minutes with intercom's AI-powered chatbots and automation tools"
@@ -439,24 +439,24 @@
         ],
         "keyPoints": [
           {
-            "id": 25,
+            "id": 61,
             "icon": "check",
             "text": "Unlock the best AI-powered customer service tools in minutes"
           },
           {
-            "id": 26,
+            "id": 62,
             "icon": "check",
             "text": "Lower your costs with more efficient support teams"
           },
           {
-            "id": 27,
+            "id": 63,
             "icon": "check",
             "text": "Scale Support without sacrificing customer experience"
           }
         ],
         "useCases": [
           {
-            "id": 45,
+            "id": 113,
             "headLine": "Fin",
             "subLine": "Our AI-powered bot automatically and accuarately answers support quersions with zero training required",
             "imageCase": {
@@ -482,7 +482,7 @@
             }
           },
           {
-            "id": 46,
+            "id": 114,
             "headLine": "Workflows",
             "subLine": "Easily build powerfull no-code automations with bots, triggers, conditions, and rules -- all in one place",
             "imageCase": {
@@ -508,7 +508,7 @@
             }
           },
           {
-            "id": 47,
+            "id": 115,
             "headLine": "Ai-powered Inbox",
             "subLine": "Instantly generate replies, recap, conversations for other agents, and create new help articles.",
             "imageCase": {
@@ -534,7 +534,7 @@
             }
           },
           {
-            "id": 48,
+            "id": 116,
             "headLine": "Article suggestions",
             "subLine": "Immediately recommend helpful content with machine learning -- directly in your product",
             "imageCase": {
@@ -560,7 +560,7 @@
             }
           },
           {
-            "id": 49,
+            "id": 117,
             "headLine": "Conversation topics",
             "subLine": "Better understand your customers with AI-powered analysis of support conversations.",
             "imageCase": {
@@ -588,38 +588,75 @@
         ],
         "testimonials": [
           {
-            "id": 9,
-            "company": "Zilch",
-            "message": "\"Our bot deflection rate with our previous customer service solutions was 5-10%. With Intercom, we archieved 65% bot deflection within just one week of going live.\"",
+            "id": 21,
             "authorName": "Stuart Sykes",
             "authorRol": "VP of Service Operations, Zilch",
-            "authorPhoto": [
+            "authorMessage": [
               {
-                "id": 9,
-                "documentId": "i1xbw18d3ww3xrj814bpl3fe",
-                "name": "Avatar_Stuart.png",
-                "alternativeText": null,
-                "caption": null,
-                "width": 89,
-                "height": 89,
-                "formats": null,
-                "hash": "Avatar_Stuart_8c0654d5cf",
-                "ext": ".png",
-                "mime": "image/png",
-                "size": 6.24,
-                "url": "/uploads/Avatar_Stuart_8c0654d5cf.png",
-                "previewUrl": null,
-                "provider": "local",
-                "provider_metadata": null,
-                "createdAt": "2026-02-21T17:28:16.833Z",
-                "updatedAt": "2026-02-21T17:28:16.833Z",
-                "publishedAt": "2026-02-21T17:28:16.833Z"
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Our bot deflection rate with our previous customer service solutions was 5-10%. With Intercom, we archieved "
+                  },
+                  {
+                    "type": "text",
+                    "text": "65% bot deflection within just one week",
+                    "bold": true
+                  },
+                  {
+                    "type": "text",
+                    "text": " of going live.\""
+                  }
+                ]
               }
-            ]
+            ],
+            "companyLogo": {
+              "id": 43,
+              "documentId": "pdur6mhh06vapskna9ohxgg0",
+              "name": "Zilch.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 105,
+              "height": 45,
+              "formats": null,
+              "hash": "Zilch_2cd7ce0f60",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 7.4,
+              "url": "/uploads/Zilch_2cd7ce0f60.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-26T16:23:48.894Z",
+              "updatedAt": "2026-02-26T16:23:48.894Z",
+              "publishedAt": "2026-02-26T16:23:48.895Z"
+            },
+            "authorPhoto": {
+              "id": 9,
+              "documentId": "i1xbw18d3ww3xrj814bpl3fe",
+              "name": "Avatar_Stuart.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 89,
+              "height": 89,
+              "formats": null,
+              "hash": "Avatar_Stuart_8c0654d5cf",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 6.24,
+              "url": "/uploads/Avatar_Stuart_8c0654d5cf.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-21T17:28:16.833Z",
+              "updatedAt": "2026-02-21T17:28:16.833Z",
+              "publishedAt": "2026-02-21T17:28:16.833Z"
+            }
           }
         ],
         "theme": {
-          "id": 9,
+          "id": 21,
           "themeBG": "light",
           "blurColor": "type_one",
           "gridDistribution": "five|two|tree"
@@ -627,21 +664,21 @@
       },
       {
         "__component": "sections.feature",
-        "id": 10,
+        "id": 22,
         "sectionLabel": {
-          "id": 19,
+          "id": 31,
           "as": "span",
           "variant": "tertiary",
           "text": "Inbox"
         },
         "headLine": {
-          "id": 15,
+          "id": 31,
           "as": "heading_one",
           "variant": "primary",
           "text": "Maximize team productivity with the world's fastest shared Inbox"
         },
         "description": {
-          "id": 15,
+          "id": 31,
           "as": "paragraph",
           "variant": "secondary",
           "text": "Our AI-enhanced Inbox is lightning fast, easy-to-use, and optimized for efficiency -- with everything a modern support team needs."
@@ -720,24 +757,24 @@
         ],
         "keyPoints": [
           {
-            "id": 28,
+            "id": 64,
             "icon": "check",
             "text": "Faster customer resolutions"
           },
           {
-            "id": 29,
+            "id": 65,
             "icon": "check",
             "text": "Prevent team burnout"
           },
           {
-            "id": 30,
+            "id": 66,
             "icon": "check",
             "text": "Lower your costs"
           }
         ],
         "useCases": [
           {
-            "id": 50,
+            "id": 118,
             "headLine": "Ticketing",
             "subLine": "Easily collaborate with colleagues to quickly slove complex problems, as well as allow customers to track progress in real time.",
             "imageCase": {
@@ -763,7 +800,7 @@
             }
           },
           {
-            "id": 51,
+            "id": 119,
             "headLine": "Configurable",
             "subLine": "Change language, turn on dark mode, save custom views and more.",
             "imageCase": {
@@ -789,7 +826,7 @@
             }
           },
           {
-            "id": 52,
+            "id": 120,
             "headLine": "Omnichannel",
             "subLine": "See all your support conversations in one place.",
             "imageCase": {
@@ -815,7 +852,7 @@
             }
           },
           {
-            "id": 53,
+            "id": 121,
             "headLine": "Multiplayer",
             "subLine": "Collaborate efficiently with teammates in real time thanks to co-presence indicators, notes, and @mentions.",
             "imageCase": {
@@ -841,7 +878,7 @@
             }
           },
           {
-            "id": 54,
+            "id": 122,
             "headLine": "Lightning fast",
             "subLine": "Win time back with powerful macros, nonexistent load times, and simple shortcuts that put yourn entire inbox a CMD+K away.",
             "imageCase": {
@@ -867,7 +904,7 @@
             }
           },
           {
-            "id": 55,
+            "id": 123,
             "headLine": "Team management",
             "subLine": "Get more done by optimizing operations with live dashboards, reporting, work managment tools, and more.",
             "imageCase": {
@@ -895,38 +932,75 @@
         ],
         "testimonials": [
           {
-            "id": 10,
-            "company": "Wolt",
-            "message": "\"The thing i noticed most about Inbox is the speed. In a test, we saw a 15% increase in the number of conversations handled.\"",
+            "id": 22,
             "authorName": "Pelle Blarke",
             "authorRol": "International Strategy and Operations Manager, Wolt",
-            "authorPhoto": [
+            "authorMessage": [
               {
-                "id": 28,
-                "documentId": "nnutj6edeeg0muf88bo77o8s",
-                "name": "Avatar-1svg.svg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 89,
-                "height": 89,
-                "formats": null,
-                "hash": "Avatar_1svg_8579c8ef4f",
-                "ext": ".svg",
-                "mime": "image/svg+xml",
-                "size": 64.29,
-                "url": "/uploads/Avatar_1svg_8579c8ef4f.svg",
-                "previewUrl": null,
-                "provider": "local",
-                "provider_metadata": null,
-                "createdAt": "2026-02-25T00:58:34.968Z",
-                "updatedAt": "2026-02-25T00:58:34.968Z",
-                "publishedAt": "2026-02-25T00:58:34.969Z"
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"The thing i noticed most about Inbox is the speed. In a test, we saw a "
+                  },
+                  {
+                    "type": "text",
+                    "text": "15% increase in the number of conversations handled.",
+                    "bold": true
+                  },
+                  {
+                    "type": "text",
+                    "text": "\""
+                  }
+                ]
               }
-            ]
+            ],
+            "companyLogo": {
+              "id": 41,
+              "documentId": "vt616u80ubxtfepy4wpfq73e",
+              "name": "Wolt.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 83,
+              "height": 34,
+              "formats": null,
+              "hash": "Wolt_9b19b306cb",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 3.67,
+              "url": "/uploads/Wolt_9b19b306cb.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-26T16:23:48.831Z",
+              "updatedAt": "2026-02-26T16:23:48.831Z",
+              "publishedAt": "2026-02-26T16:23:48.831Z"
+            },
+            "authorPhoto": {
+              "id": 28,
+              "documentId": "nnutj6edeeg0muf88bo77o8s",
+              "name": "Avatar-1svg.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 89,
+              "height": 89,
+              "formats": null,
+              "hash": "Avatar_1svg_8579c8ef4f",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 64.29,
+              "url": "/uploads/Avatar_1svg_8579c8ef4f.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:34.968Z",
+              "updatedAt": "2026-02-25T00:58:34.968Z",
+              "publishedAt": "2026-02-25T00:58:34.969Z"
+            }
           }
         ],
         "theme": {
-          "id": 10,
+          "id": 22,
           "themeBG": "light",
           "blurColor": "type_two",
           "gridDistribution": "six|two|tree"
@@ -934,21 +1008,21 @@
       },
       {
         "__component": "sections.feature",
-        "id": 11,
+        "id": 23,
         "sectionLabel": {
-          "id": 20,
+          "id": 32,
           "as": "span",
           "variant": "tertiary",
           "text": "Proactive Support"
         },
         "headLine": {
-          "id": 16,
+          "id": 32,
           "as": "heading_one",
           "variant": "primary",
           "text": "Get ahead of known issues and slash support volume"
         },
         "description": {
-          "id": 16,
+          "id": 32,
           "as": "paragraph",
           "variant": "secondary",
           "text": "Resolve customer issues before they contact you. Our proactive support tools cut down contact rates boosting customer satisfaction"
@@ -1027,24 +1101,24 @@
         ],
         "keyPoints": [
           {
-            "id": 31,
+            "id": 67,
             "icon": "check",
             "text": "Reduce inbound volume"
           },
           {
-            "id": 32,
+            "id": 68,
             "icon": "check",
             "text": "Increase CSAT"
           },
           {
-            "id": 33,
+            "id": 69,
             "icon": "check",
             "text": "No engineering resources needed"
           }
         ],
         "useCases": [
           {
-            "id": 56,
+            "id": 124,
             "headLine": "Help Center",
             "subLine": "Let customers search and browse support articles directly in your product and on the web",
             "imageCase": {
@@ -1070,7 +1144,7 @@
             }
           },
           {
-            "id": 57,
+            "id": 125,
             "headLine": "Checklists",
             "subLine": "Onboard customers without taking time from your team thanks to contextual and presonalized task lists.",
             "imageCase": {
@@ -1096,7 +1170,7 @@
             }
           },
           {
-            "id": 58,
+            "id": 126,
             "headLine": "Banners ",
             "subLine": "Inform specific customers of planned changes, events, or services interruptions.",
             "imageCase": {
@@ -1122,7 +1196,7 @@
             }
           },
           {
-            "id": 59,
+            "id": 127,
             "headLine": "Tooltips",
             "subLine": "Add help content directly into your product without enginnering resources using our no-code UI.",
             "imageCase": {
@@ -1148,7 +1222,7 @@
             }
           },
           {
-            "id": 60,
+            "id": 128,
             "headLine": "Outbound Messages",
             "subLine": "Automatically trigger an in-app chat, email, or SMS message when a customer needs help.",
             "imageCase": {
@@ -1174,7 +1248,7 @@
             }
           },
           {
-            "id": 61,
+            "id": 129,
             "headLine": "Product Tours",
             "subLine": "Drive adoption of new features and deepen customer engagement with guided experiences.",
             "imageCase": {
@@ -1202,38 +1276,75 @@
         ],
         "testimonials": [
           {
-            "id": 11,
-            "company": "TrueCommerce",
-            "message": "\"Self-service and proactive support have helped us reduce inbound conversation volume by 20% over the past two years, even as our user base has continued to grow.\"\"",
+            "id": 23,
             "authorName": "Christian Parker",
             "authorRol": "Director of Managed Services, TrueCommerce",
-            "authorPhoto": [
+            "authorMessage": [
               {
-                "id": 17,
-                "documentId": "cmia2oqx14rs4uniii76no13",
-                "name": "Avatar-2.svg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 89,
-                "height": 89,
-                "formats": null,
-                "hash": "Avatar_2_98a66327df",
-                "ext": ".svg",
-                "mime": "image/svg+xml",
-                "size": 71.63,
-                "url": "/uploads/Avatar_2_98a66327df.svg",
-                "previewUrl": null,
-                "provider": "local",
-                "provider_metadata": null,
-                "createdAt": "2026-02-25T00:58:33.871Z",
-                "updatedAt": "2026-02-25T00:58:33.871Z",
-                "publishedAt": "2026-02-25T00:58:33.872Z"
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Self-service and proactive support have helped us "
+                  },
+                  {
+                    "type": "text",
+                    "text": "reduce inbound conversation volume by 20%",
+                    "bold": true
+                  },
+                  {
+                    "type": "text",
+                    "text": " over the past two years, even as our user base has continued to grow.\""
+                  }
+                ]
               }
-            ]
+            ],
+            "companyLogo": {
+              "id": 42,
+              "documentId": "qes2ybog2v6d39sh8tl92n5r",
+              "name": "TrueCommerce.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 155,
+              "height": 25,
+              "formats": null,
+              "hash": "True_Commerce_c58e706c43",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 5.93,
+              "url": "/uploads/True_Commerce_c58e706c43.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-26T16:23:48.859Z",
+              "updatedAt": "2026-02-26T16:23:48.859Z",
+              "publishedAt": "2026-02-26T16:23:48.859Z"
+            },
+            "authorPhoto": {
+              "id": 17,
+              "documentId": "cmia2oqx14rs4uniii76no13",
+              "name": "Avatar-2.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 89,
+              "height": 89,
+              "formats": null,
+              "hash": "Avatar_2_98a66327df",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 71.63,
+              "url": "/uploads/Avatar_2_98a66327df.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:33.871Z",
+              "updatedAt": "2026-02-25T00:58:33.871Z",
+              "publishedAt": "2026-02-25T00:58:33.872Z"
+            }
           }
         ],
         "theme": {
-          "id": 11,
+          "id": 23,
           "themeBG": "light",
           "blurColor": "type_three",
           "gridDistribution": "tree|two|six"

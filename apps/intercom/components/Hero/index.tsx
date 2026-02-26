@@ -10,7 +10,7 @@ interface HeroProps {
 
 const Hero = ({ data }: HeroProps) => {
   return (
-    <section className="bg-[#041527] h-auto text-white">
+    <section className="relative bg-[#041527] w-screen -mx-[calc((100vw-100%)/2)] px-[calc((100vw-100%)/2)] text-white">
       <div className="h-full w-full flex flex-col items-center text-center pt-10">
         <div className="space-y-10">
           <Text as={data.title.as} variant={data.title.variant}>
@@ -52,6 +52,15 @@ const Hero = ({ data }: HeroProps) => {
             ))}
           </div>
         </div>
+      </div>
+      <div className="absolute bottom-0 left-0 w-full">
+        <svg
+          viewBox="0 0 1440 60"
+          preserveAspectRatio="none"
+          className="w-full h-16"
+        >
+          <path d="M0,60 Q720,-40 1440,60 L1440,60 L0,60 Z" fill="#ffffff" />
+        </svg>
       </div>
     </section>
   );

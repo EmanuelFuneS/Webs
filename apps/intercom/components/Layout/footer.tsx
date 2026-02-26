@@ -1,8 +1,9 @@
 interface FooterProps {
-  data: any;
+  data: [];
 }
 
 const Footer = ({ data }: FooterProps) => {
+  console.log(data);
   return <div>Footer</div>;
 };
 

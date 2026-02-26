@@ -1,19 +1,18 @@
 import { GridConfigType, TypeGradient } from "../types/common";
 
 export const gradientHash: Record<TypeGradient, string> = {
-  type_one: "[linear-gradient(135deg,#f0f7ff_0%,#dbeafe_100%)]",
-  type_two: "[linear-gradient(to_bottom_right,#eef2f7_100%,#ffffff_100%)]",
-  type_three:
-    "[linear-gradient(to_bottom,#ffedd5_0%,#fff7ed_100%,#ffffff_100%)]",
-  type_four: "[linear-gradient(to_bottom_right,#f8fafc_100%,#ffffff_100%)]",
+  type_one: "bg-[linear-gradient(135deg,#f3f9ff_0%,#c4e0fd_100%)]",
+  type_two: "bg-[linear-gradient(to_bottom_right,#effbfe_100%,#caf0f8_100%)]",
+  type_three: "bg-[linear-gradient(to_bottom,#fffbf3_0%,#fff1d9_100%)]",
+  type_four: "bg-[linear-gradient(to_bottom_right,#fef6f3_100%,#fae3da_100%)]",
 };
 
 export const cssGradientHash: Record<TypeGradient, string> = {
-  type_one: "linear-gradient(135deg, #f0f7ff 0%, #dbeafe 100%)",
-  type_two: "linear-gradient(to bottom right, #eef2f7 0%, #ffffff 100%)",
+  type_one: "linear-gradient(135deg, #f3f9ff 0%, #c4e0fd 100%)",
+  type_two: "linear-gradient(to bottom right, #effbfe 0%, #caf0f8 100%)",
   type_three:
-    "linear-gradient(to bottom, #ffedd5 0%, #fff7ed 100%, #ffffff 100%)",
-  type_four: "linear-gradient(to bottom right, #f8fafc 0%, #ffffff 100%)",
+    "linear-gradient(to bottom, #ffedd5 0%, #fffbf3 100%, #fff1d9 100%)",
+  type_four: "linear-gradient(to bottom right, #fef6f3 0%, #fae3da 100%)",
 };
 
 export const glowHash: Record<TypeGradient, string> = {
