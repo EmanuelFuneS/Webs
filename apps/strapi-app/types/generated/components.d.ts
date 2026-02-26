@@ -129,11 +129,13 @@ export interface BaseComponentsTestimonial extends Struct.ComponentSchema {
     displayName: 'Testimonial';
   };
   attributes: {
+    authorMessage: Schema.Attribute.Blocks;
     authorName: Schema.Attribute.String;
-    authorPhoto: Schema.Attribute.Media<'images' | 'files', true>;
+    authorPhoto: Schema.Attribute.Media<'images' | 'files'>;
     authorRol: Schema.Attribute.String;
-    company: Schema.Attribute.String;
-    message: Schema.Attribute.String;
+    companyLogo: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
   };
 }
 

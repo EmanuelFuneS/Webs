@@ -5,15 +5,22 @@
   },
   "options": {},
   "attributes": {
-    "company": {
-      "type": "string"
+    "companyLogo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     },
-    "message": {
-      "type": "string"
+    "authorMessage": {
+      "type": "blocks"
     },
     "authorPhoto": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "allowedTypes": [
         "images",
         "files"
