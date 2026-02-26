@@ -1,4 +1,5 @@
 import Image from "next/image";
+import path from "path";
 import { CTA, Link, NavbarSection } from "../../lib/types/common";
 import CTAButton from "../ui/CTA";
 import Text from "../ui/Text";
@@ -12,8 +13,8 @@ const NavBar = ({ data }: NavBarProps) => {
     <header className="h-20 flex items-center justify-between w-full">
       <div>
         <Image
-          src={data.logo.url}
-          alt={data.logo.alternativeText}
+          src={`/strapi-images/${path.basename(data.logo.url)}`}
+          alt="sponsor"
           width={data.logo.width}
           height={data.logo.height}
           priority

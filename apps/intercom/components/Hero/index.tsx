@@ -40,10 +40,14 @@ const Hero = ({ data }: HeroProps) => {
           <p className="font-semibold">TRUSTED BY +25.000 BUSINESSES</p>
           <div className="flex justify-center w-full space-x-10 my-4">
             {data.sponsors.map((sponsor, idx) => (
-              <div key={idx} className="bg-black rounded-xl px-3 py-2">
-                <Text as={sponsor.as} variant={sponsor.variant}>
-                  {sponsor.text}
-                </Text>
+              <div key={idx} className="my-10">
+                <Image
+                  src={`/strapi-images/${path.basename(sponsor.logo.url)}`}
+                  alt="sponsor"
+                  width={sponsor.logo.width}
+                  height={sponsor.logo.height}
+                  priority
+                />
               </div>
             ))}
           </div>

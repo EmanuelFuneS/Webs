@@ -17,7 +17,7 @@ const page = () => {
   return (
     <div className="w-full">
       {data.map((section, idx) => (
-        <DynamicZone key={idx} section={section} />
+        <DynamicZone key={idx} section={section} index={idx} />
       ))}
     </div>
   );

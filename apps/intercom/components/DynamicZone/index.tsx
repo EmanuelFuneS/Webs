@@ -4,14 +4,15 @@ import Hero from "../Hero";
 
 interface DynamicZoneProps {
   section: Sections;
+  index: number;
 }
 
-const DynamicZone = ({ section }: DynamicZoneProps) => {
+const DynamicZone = ({ section, index }: DynamicZoneProps) => {
   switch (section.__component) {
     case "sections.hero":
       return <Hero data={section} />;
     case "sections.feature":
-      return <Feature data={section} />;
+      return <Feature data={section} featureIndex={index} />;
     /* case "sections.footer":
       return <Footer data={sections} />; */
     /* case "sections.navbar":

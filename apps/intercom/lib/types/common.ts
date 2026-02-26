@@ -63,9 +63,7 @@ export interface Link {
 
 export interface Sponsor {
   id: number;
-  as: string;
-  variant: string;
-  text: string;
+  logo: Image;
 }
 
 export interface KeyPoint {
@@ -84,7 +82,7 @@ export interface Testimonial {
   id: number;
   company: string;
   message: string;
-  authorPhoto: string;
+  authorPhoto: Image[];
   authorName: string;
   authorRol: string;
 }
@@ -143,7 +141,7 @@ export interface HeroSection {
   description: Text;
   cta: CTA[];
   demoImages: Image[];
-  sponsors: Text[];
+  sponsors: Sponsor[];
 }
 export interface NavbarSection {
   __component: string;
