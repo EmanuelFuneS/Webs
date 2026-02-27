@@ -14,15 +14,18 @@ interface FeatureProps {
 }
 
 const Feature = ({ data, featureIndex }: FeatureProps) => {
+  console.log(data.theme.themeBG === "dark");
   return (
-    <section className="w-full flex justify-center items-center text-center">
+    <section
+      className={`w-full flex justify-center items-center text-center ${data.theme.themeBG === "dark" ? "bg-[#041527] w-screen -mx-[calc((100vw-100%)/2)] px-[calc((100vw-100%)/2)] text-white" : ""}  `}
+    >
       <div className="flex flex-col item-center justify-center p-10">
         <div className="space-y-10">
           <div className="">
             <Text
               as={data.sectionLabel.as}
               variant={data.sectionLabel.variant}
-              className={`${gradientHash[data.theme.blurColor]} py-2 px-4 rounded-2xl`}
+              className={`${gradientHash[data.theme.blurColor]} py-2 px-4 rounded-2xl ${data.theme.themeBG === "dark" ? "text-black" : ""}`}
             >
               {data.sectionLabel.text}
             </Text>
@@ -40,6 +43,7 @@ const Feature = ({ data, featureIndex }: FeatureProps) => {
           className={`flex items-center justify-center my-10 shadow-2xl rounded-2xl ${gradientHash[data.theme.blurColor]}`}
         >
           <Image
+            className="rounded-xl"
             src={`/strapi-images/${path.basename(data.demoImages[0]!.url)}`}
             alt="demo"
             width={data.demoImages[0]!.width}

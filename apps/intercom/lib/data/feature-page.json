@@ -1,13 +1,13 @@
 {
   "data": {
-    "id": 9,
+    "id": 12,
     "documentId": "jnhhkkn8r2kny5jb963f1wss",
     "createdAt": "2026-02-21T14:57:40.149Z",
-    "updatedAt": "2026-02-26T16:47:13.652Z",
-    "publishedAt": "2026-02-26T16:47:13.752Z",
+    "updatedAt": "2026-02-27T23:19:31.571Z",
+    "publishedAt": "2026-02-27T23:19:31.714Z",
     "locale": "en",
     "seo": {
-      "id": 9,
+      "id": 12,
       "metaTitle": null,
       "metaDescription": null,
       "metaKeywords": null,
@@ -20,7 +20,7 @@
     "sections": [
       {
         "__component": "sections.navbar",
-        "id": 9,
+        "id": 12,
         "logo": {
           "id": 7,
           "documentId": "j38r5hso4i7368csibz67y57",
@@ -44,40 +44,40 @@
         },
         "links": [
           {
-            "id": 41,
+            "id": 131,
             "href": null,
             "text": "Product"
           },
           {
-            "id": 42,
+            "id": 132,
             "href": null,
             "text": "Solutions"
           },
           {
-            "id": 43,
+            "id": 133,
             "href": null,
             "text": "Customer"
           },
           {
-            "id": 44,
+            "id": 134,
             "href": null,
             "text": "Resources"
           },
           {
-            "id": 45,
+            "id": 135,
             "href": null,
             "text": "Pricing"
           }
         ],
         "ctas": [
           {
-            "id": 33,
+            "id": 45,
             "as": "button",
             "text": "Start Free Trial",
             "variant": "cta"
           },
           {
-            "id": 34,
+            "id": 46,
             "as": "button",
             "text": "View Demo",
             "variant": "cta"
@@ -86,28 +86,28 @@
       },
       {
         "__component": "sections.hero",
-        "id": 9,
+        "id": 12,
         "title": {
-          "id": 29,
+          "id": 47,
           "as": "heading_one",
           "variant": "primary",
           "text": "The only AI customer service Solution you need"
         },
         "description": {
-          "id": 29,
+          "id": 47,
           "as": "paragraph",
           "variant": "secondary",
           "text": "Resolve issues faster and boost customer satisfaction -- all while reducing team workload -- with the only customer service solutions you'll ever need."
         },
         "cta": [
           {
-            "id": 35,
+            "id": 47,
             "as": "button",
             "text": "Start free trial",
             "variant": "cta"
           },
           {
-            "id": 36,
+            "id": 48,
             "as": "button",
             "text": "View Demo",
             "variant": "cta"
@@ -187,7 +187,7 @@
         ],
         "sponsors": [
           {
-            "id": 46,
+            "id": 70,
             "logo": {
               "id": 13,
               "documentId": "agzp8i8drc69z9dz4966rdlf",
@@ -211,7 +211,7 @@
             }
           },
           {
-            "id": 47,
+            "id": 71,
             "logo": {
               "id": 14,
               "documentId": "qt0bcqkhwly1c4mb295vpq88",
@@ -235,7 +235,7 @@
             }
           },
           {
-            "id": 48,
+            "id": 72,
             "logo": {
               "id": 12,
               "documentId": "jro43rmzcbpuz9q8od9umc61",
@@ -259,7 +259,7 @@
             }
           },
           {
-            "id": 49,
+            "id": 73,
             "logo": {
               "id": 11,
               "documentId": "ks2fpuaimba4n256z5aq2pyo",
@@ -283,7 +283,7 @@
             }
           },
           {
-            "id": 50,
+            "id": 74,
             "logo": {
               "id": 10,
               "documentId": "geqmjjkkek6j84hyzlniw17v",
@@ -307,7 +307,7 @@
             }
           },
           {
-            "id": 51,
+            "id": 75,
             "logo": {
               "id": 13,
               "documentId": "agzp8i8drc69z9dz4966rdlf",
@@ -331,7 +331,7 @@
             }
           },
           {
-            "id": 52,
+            "id": 76,
             "logo": {
               "id": 14,
               "documentId": "qt0bcqkhwly1c4mb295vpq88",
@@ -355,7 +355,7 @@
             }
           },
           {
-            "id": 53,
+            "id": 77,
             "logo": {
               "id": 12,
               "documentId": "jro43rmzcbpuz9q8od9umc61",
@@ -382,21 +382,21 @@
       },
       {
         "__component": "sections.feature",
-        "id": 21,
+        "id": 36,
         "sectionLabel": {
-          "id": 30,
+          "id": 45,
           "as": "span",
           "variant": "tertiary",
           "text": "Automation"
         },
         "headLine": {
-          "id": 30,
+          "id": 48,
           "as": "heading_one",
           "variant": "primary",
           "text": "Automate conversations with the power of AI"
         },
         "description": {
-          "id": 30,
+          "id": 48,
           "as": "paragraph",
           "variant": "secondary",
           "text": "Reduce support volumes and incease customer satisfaction in minutes with intercom's AI-powered chatbots and automation tools"
@@ -439,24 +439,24 @@
         ],
         "keyPoints": [
           {
-            "id": 61,
+            "id": 106,
             "icon": "check",
             "text": "Unlock the best AI-powered customer service tools in minutes"
           },
           {
-            "id": 62,
+            "id": 107,
             "icon": "check",
             "text": "Lower your costs with more efficient support teams"
           },
           {
-            "id": 63,
+            "id": 108,
             "icon": "check",
             "text": "Scale Support without sacrificing customer experience"
           }
         ],
         "useCases": [
           {
-            "id": 113,
+            "id": 192,
             "headLine": "Fin",
             "subLine": "Our AI-powered bot automatically and accuarately answers support quersions with zero training required",
             "imageCase": {
@@ -482,7 +482,7 @@
             }
           },
           {
-            "id": 114,
+            "id": 193,
             "headLine": "Workflows",
             "subLine": "Easily build powerfull no-code automations with bots, triggers, conditions, and rules -- all in one place",
             "imageCase": {
@@ -508,7 +508,7 @@
             }
           },
           {
-            "id": 115,
+            "id": 194,
             "headLine": "Ai-powered Inbox",
             "subLine": "Instantly generate replies, recap, conversations for other agents, and create new help articles.",
             "imageCase": {
@@ -534,7 +534,7 @@
             }
           },
           {
-            "id": 116,
+            "id": 195,
             "headLine": "Article suggestions",
             "subLine": "Immediately recommend helpful content with machine learning -- directly in your product",
             "imageCase": {
@@ -560,7 +560,7 @@
             }
           },
           {
-            "id": 117,
+            "id": 196,
             "headLine": "Conversation topics",
             "subLine": "Better understand your customers with AI-powered analysis of support conversations.",
             "imageCase": {
@@ -588,7 +588,7 @@
         ],
         "testimonials": [
           {
-            "id": 21,
+            "id": 36,
             "authorName": "Stuart Sykes",
             "authorRol": "VP of Service Operations, Zilch",
             "authorMessage": [
@@ -656,7 +656,7 @@
           }
         ],
         "theme": {
-          "id": 21,
+          "id": 36,
           "themeBG": "light",
           "blurColor": "type_one",
           "gridDistribution": "five|two|tree"
@@ -664,21 +664,21 @@
       },
       {
         "__component": "sections.feature",
-        "id": 22,
+        "id": 37,
         "sectionLabel": {
-          "id": 31,
+          "id": 46,
           "as": "span",
           "variant": "tertiary",
           "text": "Inbox"
         },
         "headLine": {
-          "id": 31,
+          "id": 49,
           "as": "heading_one",
           "variant": "primary",
           "text": "Maximize team productivity with the world's fastest shared Inbox"
         },
         "description": {
-          "id": 31,
+          "id": 49,
           "as": "paragraph",
           "variant": "secondary",
           "text": "Our AI-enhanced Inbox is lightning fast, easy-to-use, and optimized for efficiency -- with everything a modern support team needs."
@@ -757,24 +757,24 @@
         ],
         "keyPoints": [
           {
-            "id": 64,
+            "id": 109,
             "icon": "check",
             "text": "Faster customer resolutions"
           },
           {
-            "id": 65,
+            "id": 110,
             "icon": "check",
             "text": "Prevent team burnout"
           },
           {
-            "id": 66,
+            "id": 111,
             "icon": "check",
             "text": "Lower your costs"
           }
         ],
         "useCases": [
           {
-            "id": 118,
+            "id": 197,
             "headLine": "Ticketing",
             "subLine": "Easily collaborate with colleagues to quickly slove complex problems, as well as allow customers to track progress in real time.",
             "imageCase": {
@@ -800,7 +800,7 @@
             }
           },
           {
-            "id": 119,
+            "id": 198,
             "headLine": "Configurable",
             "subLine": "Change language, turn on dark mode, save custom views and more.",
             "imageCase": {
@@ -826,7 +826,7 @@
             }
           },
           {
-            "id": 120,
+            "id": 199,
             "headLine": "Omnichannel",
             "subLine": "See all your support conversations in one place.",
             "imageCase": {
@@ -852,7 +852,7 @@
             }
           },
           {
-            "id": 121,
+            "id": 200,
             "headLine": "Multiplayer",
             "subLine": "Collaborate efficiently with teammates in real time thanks to co-presence indicators, notes, and @mentions.",
             "imageCase": {
@@ -878,7 +878,7 @@
             }
           },
           {
-            "id": 122,
+            "id": 201,
             "headLine": "Lightning fast",
             "subLine": "Win time back with powerful macros, nonexistent load times, and simple shortcuts that put yourn entire inbox a CMD+K away.",
             "imageCase": {
@@ -904,7 +904,7 @@
             }
           },
           {
-            "id": 123,
+            "id": 202,
             "headLine": "Team management",
             "subLine": "Get more done by optimizing operations with live dashboards, reporting, work managment tools, and more.",
             "imageCase": {
@@ -932,7 +932,7 @@
         ],
         "testimonials": [
           {
-            "id": 22,
+            "id": 37,
             "authorName": "Pelle Blarke",
             "authorRol": "International Strategy and Operations Manager, Wolt",
             "authorMessage": [
@@ -1000,7 +1000,7 @@
           }
         ],
         "theme": {
-          "id": 22,
+          "id": 37,
           "themeBG": "light",
           "blurColor": "type_two",
           "gridDistribution": "six|two|tree"
@@ -1008,21 +1008,21 @@
       },
       {
         "__component": "sections.feature",
-        "id": 23,
+        "id": 38,
         "sectionLabel": {
-          "id": 32,
+          "id": 47,
           "as": "span",
           "variant": "tertiary",
           "text": "Proactive Support"
         },
         "headLine": {
-          "id": 32,
+          "id": 50,
           "as": "heading_one",
           "variant": "primary",
           "text": "Get ahead of known issues and slash support volume"
         },
         "description": {
-          "id": 32,
+          "id": 50,
           "as": "paragraph",
           "variant": "secondary",
           "text": "Resolve customer issues before they contact you. Our proactive support tools cut down contact rates boosting customer satisfaction"
@@ -1101,24 +1101,24 @@
         ],
         "keyPoints": [
           {
-            "id": 67,
+            "id": 112,
             "icon": "check",
             "text": "Reduce inbound volume"
           },
           {
-            "id": 68,
+            "id": 113,
             "icon": "check",
             "text": "Increase CSAT"
           },
           {
-            "id": 69,
+            "id": 114,
             "icon": "check",
             "text": "No engineering resources needed"
           }
         ],
         "useCases": [
           {
-            "id": 124,
+            "id": 203,
             "headLine": "Help Center",
             "subLine": "Let customers search and browse support articles directly in your product and on the web",
             "imageCase": {
@@ -1144,7 +1144,7 @@
             }
           },
           {
-            "id": 125,
+            "id": 204,
             "headLine": "Checklists",
             "subLine": "Onboard customers without taking time from your team thanks to contextual and presonalized task lists.",
             "imageCase": {
@@ -1170,7 +1170,7 @@
             }
           },
           {
-            "id": 126,
+            "id": 205,
             "headLine": "Banners ",
             "subLine": "Inform specific customers of planned changes, events, or services interruptions.",
             "imageCase": {
@@ -1196,7 +1196,7 @@
             }
           },
           {
-            "id": 127,
+            "id": 206,
             "headLine": "Tooltips",
             "subLine": "Add help content directly into your product without enginnering resources using our no-code UI.",
             "imageCase": {
@@ -1222,7 +1222,7 @@
             }
           },
           {
-            "id": 128,
+            "id": 207,
             "headLine": "Outbound Messages",
             "subLine": "Automatically trigger an in-app chat, email, or SMS message when a customer needs help.",
             "imageCase": {
@@ -1248,7 +1248,7 @@
             }
           },
           {
-            "id": 129,
+            "id": 208,
             "headLine": "Product Tours",
             "subLine": "Drive adoption of new features and deepen customer engagement with guided experiences.",
             "imageCase": {
@@ -1276,7 +1276,7 @@
         ],
         "testimonials": [
           {
-            "id": 23,
+            "id": 38,
             "authorName": "Christian Parker",
             "authorRol": "Director of Managed Services, TrueCommerce",
             "authorMessage": [
@@ -1344,11 +1344,859 @@
           }
         ],
         "theme": {
-          "id": 23,
+          "id": 38,
           "themeBG": "light",
           "blurColor": "type_three",
           "gridDistribution": "tree|two|six"
         }
+      },
+      {
+        "__component": "sections.feature",
+        "id": 39,
+        "sectionLabel": {
+          "id": 48,
+          "as": "span",
+          "variant": "tertiary",
+          "text": "Messenger and Omnichannel"
+        },
+        "headLine": {
+          "id": 51,
+          "as": "heading_one",
+          "variant": "primary",
+          "text": "Deliver Conversational support where it works best for your customers"
+        },
+        "description": {
+          "id": 51,
+          "as": "paragraph",
+          "variant": "secondary",
+          "text": "Our Messenger supports customers when it's most effective--the moment they need help in your product. And with email, SMS, and more, they can also pick whatever channel works best."
+        },
+        "demoImages": [
+          {
+            "id": 53,
+            "documentId": "m6wlslkhb2k2w32o9zsaxnhj",
+            "name": "Messenger.png",
+            "alternativeText": null,
+            "caption": null,
+            "width": 1438,
+            "height": 827,
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_Messenger.png",
+                "hash": "thumbnail_Messenger_648c0d23f9",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 245,
+                "height": 141,
+                "size": 41.53,
+                "sizeInBytes": 41531,
+                "url": "/uploads/thumbnail_Messenger_648c0d23f9.png"
+              },
+              "small": {
+                "name": "small_Messenger.png",
+                "hash": "small_Messenger_648c0d23f9",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 500,
+                "height": 288,
+                "size": 131.8,
+                "sizeInBytes": 131802,
+                "url": "/uploads/small_Messenger_648c0d23f9.png"
+              },
+              "medium": {
+                "name": "medium_Messenger.png",
+                "hash": "medium_Messenger_648c0d23f9",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 750,
+                "height": 431,
+                "size": 273.37,
+                "sizeInBytes": 273368,
+                "url": "/uploads/medium_Messenger_648c0d23f9.png"
+              },
+              "large": {
+                "name": "large_Messenger.png",
+                "hash": "large_Messenger_648c0d23f9",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 1000,
+                "height": 575,
+                "size": 456.48,
+                "sizeInBytes": 456480,
+                "url": "/uploads/large_Messenger_648c0d23f9.png"
+              }
+            },
+            "hash": "Messenger_648c0d23f9",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 174.45,
+            "url": "/uploads/Messenger_648c0d23f9.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2026-02-27T23:19:21.342Z",
+            "updatedAt": "2026-02-27T23:19:21.342Z",
+            "publishedAt": "2026-02-27T23:19:21.344Z"
+          }
+        ],
+        "keyPoints": [
+          {
+            "id": 115,
+            "icon": "check",
+            "text": "Deliver support at the exact right moment"
+          },
+          {
+            "id": 116,
+            "icon": "check",
+            "text": "Give your customers more flexibility and control over support channel"
+          },
+          {
+            "id": 117,
+            "icon": "check",
+            "text": "A seamless, beautiful customer experience"
+          }
+        ],
+        "useCases": [
+          {
+            "id": 209,
+            "headLine": "Customizable Messenger",
+            "subLine": "it's your Messenger--so have it match your brand with infinite design options.",
+            "imageCase": {
+              "id": 19,
+              "documentId": "bk91u1cjbr81wmovws1r9pj6",
+              "name": "messenger-1.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 602,
+              "height": 302,
+              "formats": null,
+              "hash": "messenger_1_71f4417252",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 386.11,
+              "url": "/uploads/messenger_1_71f4417252.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:33.950Z",
+              "updatedAt": "2026-02-25T00:58:33.950Z",
+              "publishedAt": "2026-02-25T00:58:33.950Z"
+            }
+          },
+          {
+            "id": 210,
+            "headLine": "Configurable experiences",
+            "subLine": "Show and hide different content, features--even entire Spaces-- to create bespoke Messenger experiences.",
+            "imageCase": {
+              "id": 18,
+              "documentId": "cdpg0mudvfnjpp2iit3dg6kt",
+              "name": "messenger-2.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 602,
+              "height": 302,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_messenger-2.png",
+                  "hash": "thumbnail_messenger_2_a03b28bf2d",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 245,
+                  "height": 123,
+                  "size": 10.85,
+                  "sizeInBytes": 10845,
+                  "url": "/uploads/thumbnail_messenger_2_a03b28bf2d.png"
+                },
+                "small": {
+                  "name": "small_messenger-2.png",
+                  "hash": "small_messenger_2_a03b28bf2d",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 500,
+                  "height": 251,
+                  "size": 33.14,
+                  "sizeInBytes": 33138,
+                  "url": "/uploads/small_messenger_2_a03b28bf2d.png"
+                }
+              },
+              "hash": "messenger_2_a03b28bf2d",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 10.49,
+              "url": "/uploads/messenger_2_a03b28bf2d.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:33.896Z",
+              "updatedAt": "2026-02-25T00:58:33.896Z",
+              "publishedAt": "2026-02-25T00:58:33.896Z"
+            }
+          },
+          {
+            "id": 211,
+            "headLine": "Mobile",
+            "subLine": "Bring the Messenger to your mobile app with powerful iOS and Android SDK's.",
+            "imageCase": {
+              "id": 48,
+              "documentId": "osuz9snjjrhidh86vcd5yckd",
+              "name": "Messenger_Picture.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 56,
+              "height": 57,
+              "formats": null,
+              "hash": "Messenger_Picture_0a0a960b57",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 0.93,
+              "url": "/uploads/Messenger_Picture_0a0a960b57.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-26T19:02:13.280Z",
+              "updatedAt": "2026-02-26T19:02:13.280Z",
+              "publishedAt": "2026-02-26T19:02:13.280Z"
+            }
+          },
+          {
+            "id": 212,
+            "headLine": "Omnichannel messaging",
+            "subLine": "Support customers using their preferred channel-- whether that's email, SMS, social, or more.",
+            "imageCase": {
+              "id": 47,
+              "documentId": "darhhfqp0cgaavah3x71wn5t",
+              "name": "Messenger_Picture-1.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 56,
+              "height": 57,
+              "formats": null,
+              "hash": "Messenger_Picture_1_369d3f60e4",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 2.52,
+              "url": "/uploads/Messenger_Picture_1_369d3f60e4.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-26T19:02:13.264Z",
+              "updatedAt": "2026-02-26T19:02:13.264Z",
+              "publishedAt": "2026-02-26T19:02:13.264Z"
+            }
+          },
+          {
+            "id": 213,
+            "headLine": "Phone",
+            "subLine": "Centralize your phone support using our integrations (with more comming soon).",
+            "imageCase": {
+              "id": 46,
+              "documentId": "t9l422uo4ep3w5dlz6gurltu",
+              "name": "Messenger_Picture-2.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 56,
+              "height": 57,
+              "formats": null,
+              "hash": "Messenger_Picture_2_b1caf60cae",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 1.23,
+              "url": "/uploads/Messenger_Picture_2_b1caf60cae.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-26T19:02:13.247Z",
+              "updatedAt": "2026-02-26T19:02:13.247Z",
+              "publishedAt": "2026-02-26T19:02:13.247Z"
+            }
+          },
+          {
+            "id": 214,
+            "headLine": "Switch",
+            "subLine": "Reduce phone wait times by letting customers switch to messaging mid-call.",
+            "imageCase": {
+              "id": 45,
+              "documentId": "h23e0c7ssvgphazmrndwui94",
+              "name": "Messenger_Picture-3.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 56,
+              "height": 57,
+              "formats": null,
+              "hash": "Messenger_Picture_3_02dcafe891",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 1.89,
+              "url": "/uploads/Messenger_Picture_3_02dcafe891.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-26T19:02:13.219Z",
+              "updatedAt": "2026-02-26T19:02:13.219Z",
+              "publishedAt": "2026-02-26T19:02:13.219Z"
+            }
+          }
+        ],
+        "testimonials": [
+          {
+            "id": 39,
+            "authorName": "Geronimo Chala",
+            "authorRol": "Chief Consumer Officer, Rebag",
+            "authorMessage": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Intercom powers our customer communications, delivering conversions, customer engagement, and presonalized support. "
+                  },
+                  {
+                    "type": "text",
+                    "text": "The Messenger is the heart of this strategy.",
+                    "bold": true
+                  },
+                  {
+                    "type": "text",
+                    "text": "\""
+                  }
+                ]
+              }
+            ],
+            "companyLogo": {
+              "id": 40,
+              "documentId": "zvyb8k6giiqpa868wjzutow8",
+              "name": "Rebag.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 93,
+              "height": 36,
+              "formats": null,
+              "hash": "Rebag_e8adecebac",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 6.87,
+              "url": "/uploads/Rebag_e8adecebac.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-26T16:23:48.562Z",
+              "updatedAt": "2026-02-26T16:23:48.562Z",
+              "publishedAt": "2026-02-26T16:23:48.563Z"
+            },
+            "authorPhoto": {
+              "id": 44,
+              "documentId": "cy8jpx0nauopz71h6erg78nh",
+              "name": "Avatar-4.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 89,
+              "height": 89,
+              "formats": null,
+              "hash": "Avatar_4_485b8fc123",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 69.82,
+              "url": "/uploads/Avatar_4_485b8fc123.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-26T18:44:14.683Z",
+              "updatedAt": "2026-02-26T18:44:14.683Z",
+              "publishedAt": "2026-02-26T18:44:14.683Z"
+            }
+          }
+        ],
+        "theme": {
+          "id": 39,
+          "themeBG": "light",
+          "blurColor": "type_four",
+          "gridDistribution": "six|two|four"
+        }
+      },
+      {
+        "__component": "sections.feature",
+        "id": 40,
+        "sectionLabel": {
+          "id": 49,
+          "as": "span",
+          "variant": "tertiary",
+          "text": "Platform"
+        },
+        "headLine": {
+          "id": 52,
+          "as": "heading_one",
+          "variant": "primary",
+          "text": "A sinble, powerful, easy-to-use platform"
+        },
+        "description": {
+          "id": 52,
+          "as": "paragraph",
+          "variant": "secondary",
+          "text": "Get all your automation, conversations, tickets, customer data, and reporting working together seamlessly. Maximize team performance by connecting all your other tools to our platform."
+        },
+        "demoImages": [
+          {
+            "id": 21,
+            "documentId": "zq0fqsv2243xf1w1zb9w6wm2",
+            "name": "platform.png",
+            "alternativeText": null,
+            "caption": null,
+            "width": 1274,
+            "height": 664,
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_platform.png",
+                "hash": "thumbnail_platform_e4a8c48cd4",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 245,
+                "height": 128,
+                "size": 26.26,
+                "sizeInBytes": 26255,
+                "url": "/uploads/thumbnail_platform_e4a8c48cd4.png"
+              },
+              "small": {
+                "name": "small_platform.png",
+                "hash": "small_platform_e4a8c48cd4",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 500,
+                "height": 261,
+                "size": 71.6,
+                "sizeInBytes": 71600,
+                "url": "/uploads/small_platform_e4a8c48cd4.png"
+              },
+              "medium": {
+                "name": "medium_platform.png",
+                "hash": "medium_platform_e4a8c48cd4",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 750,
+                "height": 391,
+                "size": 130.25,
+                "sizeInBytes": 130252,
+                "url": "/uploads/medium_platform_e4a8c48cd4.png"
+              },
+              "large": {
+                "name": "large_platform.png",
+                "hash": "large_platform_e4a8c48cd4",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 1000,
+                "height": 521,
+                "size": 199.11,
+                "sizeInBytes": 199109,
+                "url": "/uploads/large_platform_e4a8c48cd4.png"
+              }
+            },
+            "hash": "platform_e4a8c48cd4",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 72.24,
+            "url": "/uploads/platform_e4a8c48cd4.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2026-02-25T00:58:34.101Z",
+            "updatedAt": "2026-02-25T00:58:34.101Z",
+            "publishedAt": "2026-02-25T00:58:34.102Z"
+          }
+        ],
+        "keyPoints": [
+          {
+            "id": 118,
+            "icon": "check",
+            "text": "Maximize team performance with actionable insights"
+          },
+          {
+            "id": 119,
+            "icon": "check",
+            "text": "Stop switching between tools and speed up workflows"
+          },
+          {
+            "id": 120,
+            "icon": "check",
+            "text": "See all your data in one place"
+          }
+        ],
+        "useCases": [
+          {
+            "id": 215,
+            "headLine": "Reporting",
+            "subLine": "Understand and improve the performance of your bots and team with flexible and customizable reports.",
+            "imageCase": {
+              "id": 16,
+              "documentId": "xnx5q3hopxc6nbmkoy46fqlb",
+              "name": "platform-1.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 604,
+              "height": 302,
+              "formats": null,
+              "hash": "platform_1_7ec3d7ae17",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 204.83,
+              "url": "/uploads/platform_1_7ec3d7ae17.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:33.398Z",
+              "updatedAt": "2026-02-25T00:58:33.398Z",
+              "publishedAt": "2026-02-25T00:58:33.398Z"
+            }
+          },
+          {
+            "id": 216,
+            "headLine": "Customer data",
+            "subLine": "View, segment, and filter all your customer data -- adn modalt it however works best for your business",
+            "imageCase": {
+              "id": 20,
+              "documentId": "lascneg1r8odrcue8l2d4wgk",
+              "name": "platform-2.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 604,
+              "height": 302,
+              "formats": null,
+              "hash": "platform_2_f03dbcbd08",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 649.43,
+              "url": "/uploads/platform_2_f03dbcbd08.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:34.017Z",
+              "updatedAt": "2026-02-25T00:58:34.017Z",
+              "publishedAt": "2026-02-25T00:58:34.017Z"
+            }
+          },
+          {
+            "id": 217,
+            "headLine": "Behavioral Data",
+            "subLine": "Craft the best customer support experiences using a complete picture of past actions",
+            "imageCase": {
+              "id": 52,
+              "documentId": "peig1ua2nqnm8seb2c1x7w2t",
+              "name": "Platform_Picture.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 56,
+              "height": 57,
+              "formats": null,
+              "hash": "Platform_Picture_7c3e92f34b",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 1.4,
+              "url": "/uploads/Platform_Picture_7c3e92f34b.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-26T19:02:14.467Z",
+              "updatedAt": "2026-02-26T19:02:14.467Z",
+              "publishedAt": "2026-02-26T19:02:14.467Z"
+            }
+          },
+          {
+            "id": 218,
+            "headLine": "Custom Actions",
+            "subLine": "Powr bots and workflows with live customer data stored in other tools--no engineering resources required",
+            "imageCase": {
+              "id": 51,
+              "documentId": "slgan5kprz1r5cgygi4rgi7b",
+              "name": "platform_Picture-1.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 56,
+              "height": 57,
+              "formats": null,
+              "hash": "platform_Picture_1_a8ff189538",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 0.9,
+              "url": "/uploads/platform_Picture_1_a8ff189538.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-26T19:02:14.450Z",
+              "updatedAt": "2026-02-26T19:02:14.450Z",
+              "publishedAt": "2026-02-26T19:02:14.450Z"
+            }
+          },
+          {
+            "id": 219,
+            "headLine": "Apps and Integrations",
+            "subLine": "Get all your tools working as one--and add more to existing workflows--with 300+ apps.",
+            "imageCase": {
+              "id": 50,
+              "documentId": "ggflbfiqzfnhv0v20xw960jl",
+              "name": "Platform_Picture-2.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 56,
+              "height": 57,
+              "formats": null,
+              "hash": "Platform_Picture_2_0ab2ddee99",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 2.49,
+              "url": "/uploads/Platform_Picture_2_0ab2ddee99.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-26T19:02:13.469Z",
+              "updatedAt": "2026-02-26T19:02:13.469Z",
+              "publishedAt": "2026-02-26T19:02:13.469Z"
+            }
+          },
+          {
+            "id": 220,
+            "headLine": "APIs and Webhooks",
+            "subLine": "Configure Intercom to work best for you with our easy-to-use APIs and webhooks",
+            "imageCase": {
+              "id": 49,
+              "documentId": "vbvji6wgs7npe1k2akwtiouz",
+              "name": "Platform_Picture-3.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 56,
+              "height": 57,
+              "formats": null,
+              "hash": "Platform_Picture_3_f354632e17",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 2.71,
+              "url": "/uploads/Platform_Picture_3_f354632e17.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-26T19:02:13.458Z",
+              "updatedAt": "2026-02-26T19:02:13.458Z",
+              "publishedAt": "2026-02-26T19:02:13.458Z"
+            }
+          }
+        ],
+        "testimonials": [
+          {
+            "id": 40,
+            "authorName": "Oda Skuggedal Wilhelmsen",
+            "authorRol": "Nordic Customer Service Manager, Godtlevert",
+            "authorMessage": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"We have almost all of our support channels integrated into one system, making it easy for us to manage our support, as well as "
+                  },
+                  {
+                    "type": "text",
+                    "text": "take data-driven approach to continuously improving our service",
+                    "bold": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ".\""
+                  }
+                ]
+              }
+            ],
+            "companyLogo": {
+              "id": 39,
+              "documentId": "i41slximnsy4il7o9b4423xv",
+              "name": "GodtLever.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 162,
+              "height": 32,
+              "formats": null,
+              "hash": "Godt_Lever_b5b03cde1b",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 7.52,
+              "url": "/uploads/Godt_Lever_b5b03cde1b.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-26T16:23:48.538Z",
+              "updatedAt": "2026-02-26T16:23:48.538Z",
+              "publishedAt": "2026-02-26T16:23:48.539Z"
+            },
+            "authorPhoto": {
+              "id": 15,
+              "documentId": "qdtgsr2qfjrx8pqs4op0od6k",
+              "name": "Avatar-3.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 89,
+              "height": 89,
+              "formats": null,
+              "hash": "Avatar_3_daa5c2d5a2",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 74.81,
+              "url": "/uploads/Avatar_3_daa5c2d5a2.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2026-02-25T00:58:32.706Z",
+              "updatedAt": "2026-02-25T00:58:32.706Z",
+              "publishedAt": "2026-02-25T00:58:32.707Z"
+            }
+          }
+        ],
+        "theme": {
+          "id": 40,
+          "themeBG": "dark",
+          "blurColor": "type_four",
+          "gridDistribution": "six|two|four"
+        }
+      },
+      {
+        "__component": "sections.footer",
+        "id": 4,
+        "features": [
+          {
+            "id": 136,
+            "href": null,
+            "text": "Bussines Messenger"
+          },
+          {
+            "id": 137,
+            "href": null,
+            "text": "Customizable bots"
+          },
+          {
+            "id": 138,
+            "href": null,
+            "text": "Automated answers"
+          },
+          {
+            "id": 139,
+            "href": null,
+            "text": "Products Tours"
+          },
+          {
+            "id": 140,
+            "href": null,
+            "text": "Outbound Messages"
+          },
+          {
+            "id": 141,
+            "href": null,
+            "text": "Inbox"
+          },
+          {
+            "id": 142,
+            "href": null,
+            "text": "Help Center Articles"
+          }
+        ],
+        "resources": [
+          {
+            "id": 143,
+            "href": null,
+            "text": "Blog"
+          },
+          {
+            "id": 144,
+            "href": null,
+            "text": "Wath a Demo"
+          },
+          {
+            "id": 145,
+            "href": null,
+            "text": "Glossary"
+          },
+          {
+            "id": 146,
+            "href": null,
+            "text": "Academy"
+          },
+          {
+            "id": 147,
+            "href": null,
+            "text": "Webinars"
+          },
+          {
+            "id": 148,
+            "href": null,
+            "text": "Product Changes"
+          },
+          {
+            "id": 149,
+            "href": null,
+            "text": "App store"
+          },
+          {
+            "id": 150,
+            "href": null,
+            "text": "Docs"
+          },
+          {
+            "id": 151,
+            "href": null,
+            "text": "Developers"
+          },
+          {
+            "id": 152,
+            "href": null,
+            "text": "Status"
+          },
+          {
+            "id": 153,
+            "href": null,
+            "text": "Security"
+          }
+        ],
+        "useCases": [
+          {
+            "id": 154,
+            "href": null,
+            "text": "Support "
+          },
+          {
+            "id": 155,
+            "href": null,
+            "text": "Engage"
+          },
+          {
+            "id": 156,
+            "href": null,
+            "text": "Convert"
+          },
+          {
+            "id": 157,
+            "href": null,
+            "text": "Financial Services"
+          },
+          {
+            "id": 158,
+            "href": null,
+            "text": "E-commerce"
+          },
+          {
+            "id": 159,
+            "href": null,
+            "text": "Education"
+          },
+          {
+            "id": 160,
+            "href": null,
+            "text": "Healthcare"
+          }
+        ]
       }
     ]
   },

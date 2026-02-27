@@ -10,7 +10,7 @@ interface TextProps {
 
 export const variants = {
   primary: "text-primary text-6xl font-light",
-  secondary: "text-secondary text-md font-light",
+  secondary: "text-secondary text-md font-normal",
   tertiary: "text-tertiary  text-xl font-semibold",
 };
 

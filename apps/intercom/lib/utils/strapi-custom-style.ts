@@ -44,11 +44,11 @@ export const gridConfigTree: Record<number, string> = {
 };
 export const gridConfigFour: Record<number, string> = {
   0: "col-span-1 lg:col-start-1 lg:col-span-6 lg:row-start-1 lg:h-full  lg:w-full lg:row-span-2",
-  1: "col-span-1 lg:col-start-7 lg:col-span-6 lg:row-start-1 lg:h-full  lg:w-full lg:row-span-2 ",
-  2: "col-span-1 lg:col-start-1 lg:col-span-3 lg:row-start-3 lg:h-full  lg:w-full lg:row-span-2 ",
-  3: "col-span-1 lg:col-start-4 lg:col-span-3 lg:row-start-3 lg:h-full  lg:w-full lg:row-span-2 lg:flex ",
-  4: "col-span-1 lg:col-start-7 lg:col-span-3 lg:row-start-3 lg:h-full  lg:w-full lg:row-span-2 lg:flex ",
-  5: "col-span-1 lg:col-start-10 lg:col-span-3 lg:row-start-3 lg:h-full lg:w-full  lg:row-span-2 ",
+  1: "col-span-1 lg:col-start-7 lg:col-span-6 lg:row-start-1 lg:h-full  lg:w-full lg:row-span-2",
+  2: "col-span-1 lg:col-start-1 lg:col-span-3 lg:row-start-3 lg:h-full  lg:w-full lg:row-span-2 flex flex-col-reverse",
+  3: "col-span-1 lg:col-start-4 lg:col-span-3 lg:row-start-3 lg:h-full  lg:w-full lg:row-span-2 flex flex-col-reverse",
+  4: "col-span-1 lg:col-start-7 lg:col-span-3 lg:row-start-3 lg:h-full  lg:w-full lg:row-span-2 flex flex-col-reverse",
+  5: "col-span-1 lg:col-start-10 lg:col-span-3 lg:row-start-3 lg:h-full lg:w-full lg:row-span-2 flex flex-col-reverse",
 };
 
 export const gridConfigOne: Record<number, string> = {
