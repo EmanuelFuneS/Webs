@@ -5,7 +5,17 @@
   },
   "options": {},
   "attributes": {
-    "links": {
+    "features": {
+      "type": "component",
+      "component": "base-components.link",
+      "repeatable": true
+    },
+    "resources": {
+      "type": "component",
+      "component": "base-components.link",
+      "repeatable": true
+    },
+    "useCases": {
       "type": "component",
       "component": "base-components.link",
       "repeatable": true

@@ -220,7 +220,9 @@ export interface SectionsFooter extends Struct.ComponentSchema {
     displayName: 'Footer';
   };
   attributes: {
-    links: Schema.Attribute.Component<'base-components.link', true>;
+    features: Schema.Attribute.Component<'base-components.link', true>;
+    resources: Schema.Attribute.Component<'base-components.link', true>;
+    useCases: Schema.Attribute.Component<'base-components.link', true>;
   };
 }
 
