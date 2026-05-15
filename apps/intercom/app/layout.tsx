@@ -2,8 +2,9 @@ import "@workspace/ui/styles/globals.css";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import NavBar from "../components/Layout/Navbar";
+import Footer from "../components/Layout/footer";
 import data from "../lib/data/feature-page.json";
-import { NavbarSection } from "../lib/types/common";
+import { FooterSection, NavbarSection } from "../lib/types/common";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -27,11 +28,20 @@ export default function RootLayout({
   const navData = data.data.sections.find(
     (section) => section.__component === "sections.navbar" && "logo" in section,
   );
+  const footerData = data.data.sections.find(
+    (section) => section.__component === "sections.footer",
+  );
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} overflow-x-hidden`}>
         {navData && <NavBar data={navData as unknown as NavbarSection} />}
         <main className="max-w-7xl mx-auto ">{children}</main>
+        {footerData && (
+          <Footer
+            data={footerData as unknown as FooterSection}
+            logo={(navData as unknown as NavbarSection)?.logo}
+          />
+        )}
       </body>
     </html>
   );

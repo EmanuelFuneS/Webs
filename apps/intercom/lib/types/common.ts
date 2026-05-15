@@ -153,6 +153,14 @@ export interface NavbarSection {
   ctas: CTA[];
 }
 
+export interface FooterSection {
+  __component: string;
+  id: number;
+  features: Link[];
+  resources: Link[];
+  useCases: Link[];
+}
+
 export type Sections =
   /*   | NavbarSection */
   HeroSection | FeatureSection;
